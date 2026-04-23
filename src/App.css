@@ -59,6 +59,14 @@
   }
 }
 
+/* 移动端容器宽度 */
+@media (max-width: 1024px) {
+  .container {
+    width: 95%;
+    padding: 0.5rem;
+  }
+}
+
 /* Filter Bar */
 .filter-bar {
   background: rgba(248, 248, 248, 0.627);
@@ -1290,7 +1298,7 @@
 /* 手机端注释和鸣谢字体缩小 */
 @media (max-width: 1024px) {
   .table-note {
-    font-size: 0.6rem;
+    font-size: 0.55rem;
     padding: 0.2rem 0.3rem;
   }
   

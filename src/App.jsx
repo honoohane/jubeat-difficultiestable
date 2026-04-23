@@ -547,7 +547,7 @@ function App() {
                 onChange={() => toggleDifficulty('BSC')}
               />
               <span className="custom-checkbox checkbox-bsc"></span>
-              <span className="difficulty-tag difficulty-bsc">BASIC</span>
+              <span className="difficulty-tag difficulty-bsc">{isMobile ? 'BSC' : 'BASIC'}</span>
             </label>
             <label className={`difficulty-checkbox ${selectedDifficulties.includes('ADV') ? 'checked' : ''}`}>
               <input
@@ -556,7 +556,7 @@ function App() {
                 onChange={() => toggleDifficulty('ADV')}
               />
               <span className="custom-checkbox checkbox-adv"></span>
-              <span className="difficulty-tag difficulty-adv">ADVANCED</span>
+              <span className="difficulty-tag difficulty-adv">{isMobile ? 'ADV' : 'ADVANCED'}</span>
             </label>
             <label className={`difficulty-checkbox ${selectedDifficulties.includes('EXT') ? 'checked' : ''}`}>
               <input
@@ -565,7 +565,7 @@ function App() {
                 onChange={() => toggleDifficulty('EXT')}
               />
               <span className="custom-checkbox checkbox-ext"></span>
-              <span className="difficulty-tag difficulty-ext">EXTREME</span>
+              <span className="difficulty-tag difficulty-ext">{isMobile ? 'EXT' : 'EXTREME'}</span>
             </label>
           </div>
         </div>
@@ -938,8 +938,8 @@ function App() {
       {/* Footer 鸣谢 */}
       <footer className="site-footer">
         <div className="footer-line">制表：Baozale、Honoohane　　开发：Honoohane</div>
-        <div className="footer-line">鸣谢：cirno919、TDBZ1686、MA马术、xipigu、shiryuru、Zero_wind</div>
-        <div className="footer-line">dj baka、ugui、PomeloY、sakuya、fanzhen0019、方丈FangZhang、Niconi等群友</div>
+        <div className="footer-line">鸣谢：cirno919、TDBZ1686、MA马术、xipigu、shiryuru、Zero_wind、ugui、</div>
+        <div className="footer-line">dj baka、PomeloY、sakuya、fanzhen0019、方丈FangZhang、Niconi等群友</div>
         <div className="footer-link">
           <a href="https://github.com/honoohane/jubeat-difficultiestable" target="_blank" rel="noopener noreferrer">GitHub</a>
         </div>

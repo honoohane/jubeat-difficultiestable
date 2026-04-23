@@ -1300,10 +1300,29 @@
   .table-note {
     font-size: 0.55rem;
     padding: 0.2rem 0.3rem;
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: left;
   }
   
   .site-footer {
-    font-size: 0.6rem;
+    font-size: 0.55rem;
+  }
+}
+
+/* 手机端 tooltip 固定宽度260px，允许换行 */
+@media (max-width: 1024px) {
+  .chart-tooltip {
+    width: 260px;
+    min-width: unset;
+  }
+  
+  .tooltip-title,
+  .tooltip-artist {
+    white-space: normal;
+    word-break: break-word;
   }
 }
 

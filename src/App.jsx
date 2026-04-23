@@ -156,23 +156,32 @@ const SongCard = ({ song }) => {
     if (!cardRef.current) return
     const rect = cardRef.current.getBoundingClientRect()
     const tooltipHeight = 200
-    // 估算tooltip宽度：基础宽度 + 歌名长度
-    const estimatedWidth = Math.max(260, song.title.length * 14 + 150)
+    
+    // 手机端固定260px，电脑端根据内容估算
+    const isMobileView = window.innerWidth <= 1024
+    let estimatedWidth
+    if (isMobileView) {
+      estimatedWidth = 260
+    } else {
+      const artistLength = meta?.artist?.length || 0
+      const maxTextLength = Math.max(song.title.length, artistLength)
+      estimatedWidth = Math.max(260, maxTextLength * 10 + 180)
+    }
     
     // 垂直方向：如果上方空间不够，显示在下方
     const vertical = rect.top < tooltipHeight + 20 ? 'bottom' : 'top'
     
-    // 水平方向：根据card位置和估算的tooltip宽度决定
+    // 水平方向：默认居中
     const cardCenterX = rect.left + rect.width / 2
     let horizontal = 'center'
     
-    // 如果居中会超出右边
+    // 如果居中会超出右边 → 箭头偏右，card向左
     if (cardCenterX + estimatedWidth / 2 > window.innerWidth - 10) {
-      horizontal = 'right'  // 靠右显示（向左展开）
+      horizontal = 'right'
     }
-    // 如果居中会超出左边
+    // 如果居中会超出左边 → 箭头偏左，card向右
     else if (cardCenterX - estimatedWidth / 2 < 10) {
-      horizontal = 'left'  // 靠左显示（向右展开）
+      horizontal = 'left'
     }
     
     setTooltipPos({ vertical, horizontal })
@@ -938,8 +947,7 @@ function App() {
       {/* Footer 鸣谢 */}
       <footer className="site-footer">
         <div className="footer-line">制表：Baozale、Honoohane　　开发：Honoohane</div>
-        <div className="footer-line">鸣谢：cirno919、TDBZ1686、MA马术、xipigu、shiryuru、Zero_wind、ugui、</div>
-        <div className="footer-line">dj baka、PomeloY、sakuya、fanzhen0019、方丈FangZhang、Niconi等群友</div>
+        <div className="footer-line">鸣谢：cirno919、TDBZ1686、MA马术、xipigu、shiryuru、Zero_wind、ugui、dj_baka、PomeloY、sakuya、fanzhen0019、方丈FangZhang、Niconi等群友</div>
         <div className="footer-link">
           <a href="https://github.com/honoohane/jubeat-difficultiestable" target="_blank" rel="noopener noreferrer">GitHub</a>
         </div>

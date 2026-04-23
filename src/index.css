@@ -11,6 +11,12 @@ body {
   min-width: 600px;
 }
 
+@media (max-width: 1024px) {
+  body {
+    min-width: unset;
+  }
+}
+
 #root {
   min-height: 100vh;
 }

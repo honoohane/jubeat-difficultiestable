@@ -1,0 +1,1360 @@
+/* Container */
+.container {
+  width: 80%;
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: 1rem;
+  padding-bottom: 3rem;
+}
+
+.container-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.title-icon {
+  height: 1.8rem;
+}
+
+.title-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Header Row: 标题 + 区域选择器 */
+.header-row {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0 2rem;
+  position: relative;
+}
+
+.header-row .container-header {
+  position: absolute;
+  left: 0;
+}
+
+.header-row .region-bar {
+  flex: 1;
+  justify-content: center;
+}
+
+/* 窄屏时 header 变为两行居中 */
+@media (max-width: 1200px) {
+  .header-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .header-row .container-header {
+    position: static;
+    align-items: center;
+  }
+  
+  .header-row .region-bar {
+    justify-content: center;
+  }
+}
+
+/* Filter Bar */
+.filter-bar {
+  background: rgba(248, 248, 248, 0.627);
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 2rem;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.filter-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.filter-row-top {
+  align-items: flex-end;
+}
+
+/* Region Bar */
+.region-bar {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.region-radio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.75rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.region-radio input {
+  display: none;
+}
+
+.radio-circle {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #999;
+  border-radius: 50%;
+  background: white;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.region-radio.checked .radio-circle {
+  border-color: #e94560;
+}
+
+.region-radio.checked .radio-circle::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  background: #e94560;
+  border-radius: 50%;
+}
+
+.region-radio:hover .radio-circle {
+  border-color: #e94560;
+}
+
+.region-radio .region-icon {
+  opacity: 0.4;
+  filter: grayscale(100%);
+  transition: all 0.2s ease;
+}
+
+.region-radio.checked .region-icon {
+  opacity: 1;
+  filter: grayscale(0%);
+}
+
+.region-radio:hover .region-icon {
+  opacity: 0.7;
+}
+
+.region-icon {
+  width: 120px;
+  height: auto;
+}
+
+/* Level Range Selector */
+.level-range-selector {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.level-input-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.level-input-item label {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #555;
+  font-family: 'SF Pro Rounded', 'Nunito', system-ui, -apple-system, sans-serif;
+}
+
+/* 等级输入框 - 灰白黑风格 */
+.level-input-item .level-input-wrapper {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.level-input-item .level-input-wrapper input {
+  color: #333;
+  font-family: 'SF Pro Rounded', 'Nunito', system-ui, -apple-system, sans-serif;
+  font-weight: 500;
+}
+
+.level-input-item .step-btn {
+  background: #f5f5f5;
+  color: #666;
+  font-family: 'SF Pro Rounded', 'Nunito', system-ui, -apple-system, sans-serif;
+}
+
+.level-input-item .step-btn:hover {
+  background: #333;
+  color: white;
+}
+
+.level-input-wrapper {
+  display: flex;
+  align-items: stretch;
+}
+
+.level-input-wrapper input {
+  width: 52px;
+  text-align: center;
+  border: none;
+  padding: 0.4rem 0.4rem;
+  font-size: 0.85rem;
+  background: transparent;
+}
+
+.level-input-wrapper input:focus {
+  outline: none;
+}
+
+.step-btn {
+  width: 30px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+/* Difficulty Selector */
+.difficulty-selector {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.difficulty-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.difficulty-checkbox input {
+  display: none;
+}
+
+.custom-checkbox {
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  background: transparent;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+/* BSC checkbox - green */
+.difficulty-checkbox.checked .custom-checkbox.checkbox-bsc {
+  border-color: #11B500;
+}
+
+.difficulty-checkbox.checked .custom-checkbox.checkbox-bsc::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 8px;
+  background: #11B500;
+  border-radius: 2px;
+}
+
+/* ADV checkbox - orange */
+.difficulty-checkbox.checked .custom-checkbox.checkbox-adv {
+  border-color: #FF8400;
+}
+
+.difficulty-checkbox.checked .custom-checkbox.checkbox-adv::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 8px;
+  background: #FF8400;
+  border-radius: 2px;
+}
+
+/* EXT checkbox - red */
+.difficulty-checkbox.checked .custom-checkbox.checkbox-ext {
+  border-color: #FF2F57;
+}
+
+.difficulty-checkbox.checked .custom-checkbox.checkbox-ext::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 8px;
+  background: #FF2F57;
+  border-radius: 2px;
+}
+
+.difficulty-checkbox:hover .custom-checkbox {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+.difficulty-tag {
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  opacity: 0.4;
+  transition: all 0.2s ease;
+}
+
+.difficulty-checkbox.checked .difficulty-tag {
+  opacity: 1;
+}
+
+.difficulty-checkbox:hover .difficulty-tag {
+  opacity: 0.8;
+}
+
+/* Chart Selector */
+.chart-selector {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.chart-tag {
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  opacity: 0.4;
+  transition: all 0.2s ease;
+}
+
+.difficulty-checkbox.checked .chart-tag {
+  opacity: 1;
+}
+
+.difficulty-checkbox:hover .chart-tag {
+  opacity: 0.8;
+}
+
+/* Chart 1 - Soft green */
+.chart-1 {
+  background-color: #E8F5E9;
+  color: #4CAF50;
+}
+
+/* Chart 2 - Soft purple */
+.chart-2 {
+  background-color: #F3E5F5;
+  color: #9C7FB0;
+}
+
+/* Chart 1 checkbox - soft green */
+.difficulty-checkbox.checked .custom-checkbox.checkbox-chart1 {
+  border-color: #4CAF50;
+}
+
+.difficulty-checkbox.checked .custom-checkbox.checkbox-chart1::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 8px;
+  background: #4CAF50;
+  border-radius: 2px;
+}
+
+/* Chart 2 checkbox - soft purple */
+.difficulty-checkbox.checked .custom-checkbox.checkbox-chart2 {
+  border-color: #9C7FB0;
+}
+
+.difficulty-checkbox.checked .custom-checkbox.checkbox-chart2::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 8px;
+  background: #9C7FB0;
+  border-radius: 2px;
+}
+
+/* Type Selector */
+.type-selector {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.type-tag {
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  opacity: 0.4;
+  transition: all 0.2s ease;
+}
+
+.difficulty-checkbox.checked .type-tag {
+  opacity: 1;
+}
+
+.difficulty-checkbox:hover .type-tag {
+  opacity: 0.8;
+}
+
+/* Stamina - 地力 浅蓝 */
+.type-stamina {
+  background-color: #E6F3FF;
+  color: #5599CC;
+}
+
+.difficulty-checkbox.checked .custom-checkbox.checkbox-stamina {
+  border-color: #99CCFF;
+}
+
+.difficulty-checkbox.checked .custom-checkbox.checkbox-stamina::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 8px;
+  background: #99CCFF;
+  border-radius: 2px;
+}
+
+/* Balanced - 综合 金黄 */
+.type-balanced {
+  background-color: #FFF8E6;
+  color: #CC9900;
+}
+
+.difficulty-checkbox.checked .custom-checkbox.checkbox-balanced {
+  border-color: #FFCC00;
+}
+
+.difficulty-checkbox.checked .custom-checkbox.checkbox-balanced::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 8px;
+  background: #FFCC00;
+  border-radius: 2px;
+}
+
+/* Technique - 手法 浅红 */
+.type-technique {
+  background-color: #FFE6E6;
+  color: #CC5555;
+}
+
+.difficulty-checkbox.checked .custom-checkbox.checkbox-technique {
+  border-color: #FF8080;
+}
+
+.difficulty-checkbox.checked .custom-checkbox.checkbox-technique::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 8px;
+  background: #FF8080;
+  border-radius: 2px;
+}
+
+/* Version Selector */
+.version-selector {
+  position: relative;
+}
+
+.version-dropdown-trigger {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  background: rgba(0, 188, 212, 0.15);
+  border: 1px solid rgba(0, 188, 212, 0.4);
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  color: #00838F;
+  transition: all 0.2s ease;
+  user-select: none;
+  backdrop-filter: blur(4px);
+}
+
+.version-dropdown-trigger:hover {
+  background: rgba(0, 188, 212, 0.25);
+  border-color: rgba(0, 188, 212, 0.6);
+}
+
+.dropdown-arrow {
+  font-size: 0.65rem;
+  color: #00838F;
+}
+
+.version-dropdown {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  right: 0;
+  min-width: 220px;
+  max-height: 300px;
+  overflow-y: auto;
+  background: rgba(255, 255, 255, 0.98);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  padding: 0.5rem;
+  z-index: 100;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.version-option {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 0.6rem;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.75);
+  transition: background 0.15s ease;
+}
+
+.version-option:hover {
+  background: rgba(0, 0, 0, 0.06);
+}
+
+.version-option.version-all {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 0.25rem;
+  padding-bottom: 0.6rem;
+  color: #e94560;
+  font-weight: 500;
+}
+
+.version-option input[type="checkbox"] {
+  width: 14px;
+  height: 14px;
+  accent-color: #e94560;
+}
+
+/* Filter Footer */
+.filter-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  position: relative;
+}
+
+.search-input {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  width: 180px;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.search-input:focus {
+  border-color: #e94560;
+}
+
+.search-input::placeholder {
+  color: #aaa;
+}
+
+.reset-btn {
+  padding: 0.4rem 1rem;
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  color: #666;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+.reset-btn:hover {
+  background: #e94560;
+  border-color: #e94560;
+  color: white;
+}
+
+.filter-stats {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 0.85rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* 手机端 filter-footer 布局调整 */
+@media (max-width: 1024px) {
+  .filter-footer {
+    flex-wrap: wrap;
+  }
+  
+  .filter-stats {
+    position: static;
+    width: 100%;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Level Box - 左侧边栏布局 */
+.level-box {
+  background-color: rgba(248, 248, 248, 0.627);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0.5rem 0;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  overflow: visible;  /* 允许 tooltip 溢出 */
+}
+
+.level-sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #333 0%, #555 100%);
+  padding: 1rem 0.75rem;
+  width: 70px;
+  flex-shrink: 0;
+  margin: 0.5rem 0 0.5rem 0.5rem;
+  border-radius: 5px;
+}
+
+.level-sidebar-label {
+  font-size: 1.3rem;
+  font-weight: bold;
+  position: relative;
+  padding-top: 0.5em;
+}
+
+.level-sidebar-label sup {
+  position: absolute;
+  top: 0;
+  right: -0.3em;
+  font-size: 0.5em;
+  font-weight: bold;
+}
+
+.level-sidebar-count {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 0.25rem;
+}
+
+/* 合并的 12.0 系列布局 - 横向排列 */
+.level-box-combined {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  padding: 0;
+  gap: 0;
+}
+
+.combined-section {
+  display: flex;
+  align-items: stretch;
+  align-self: stretch;
+  flex: 32;
+}
+
+.combined-songs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.combined-divider {
+  flex: 2;
+  align-self: stretch;
+}
+
+/* 紧跟在 divider 后面的 section 加左边框 */
+.combined-divider + .combined-section {
+  position: relative;
+}
+
+.combined-divider + .combined-section::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.5rem;
+  bottom: 0.5rem;
+  border-left: 2px dashed;
+}
+
+/* 顶部合并行（12.0系列）分割线颜色 */
+/* 第一条竖线（12.0+ 左侧）：#FF6060 和 #FF8080 的中间值 */
+.level-box-combined:not(.level-box-combined-bottom) .combined-section:nth-of-type(3)::before {
+  border-color: #FF7070;
+}
+
+/* 第二条竖线（12.0 左侧）：#FF8080 和 #FFA0A0 的中间值 */
+.level-box-combined:not(.level-box-combined-bottom) .combined-section:nth-of-type(5)::before {
+  border-color: #FF9090;
+}
+
+/* 底部合并行（10.0系列）分割线颜色 */
+/* 第一条竖线（10.0- 左侧）：#C0E0FF 和 #80C0FF 的中间值 */
+.level-box-combined-bottom .combined-section:nth-of-type(3)::before {
+  border-color: #A0D0FF;
+}
+
+/* 第二条竖线（10.0-- 左侧）：#80C0FF 和 #40A0FF 的中间值 */
+.level-box-combined-bottom .combined-section:nth-of-type(5)::before {
+  border-color: #60B0FF;
+}
+
+/* Level Body Wrapper (分栏容器) */
+.level-body-wrapper {
+  display: flex;
+  flex: 1;
+  padding: 0.5rem;
+  gap: 0.5rem;
+}
+
+/* Level Body (songs container) */
+.level-body {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+/* 普通谱区域 - 自动伸缩 */
+.level-body-normal {
+  flex: 1;
+  min-width: 0;
+}
+
+/* 个人差区域 - 方案1样式 */
+.level-body-kojinsa-wrapper {
+  display: flex;
+  flex-direction: column;
+  border-left: 2px dashed #c6a0dc;
+  background-color: rgba(200, 160, 220, 0.12);
+  border-radius: 0 5px 5px 0;
+  padding: 0.3rem 0.25rem;
+  flex-shrink: 0;
+}
+
+.kojinsa-title {
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: #9966aa;
+  margin-bottom: 0.3rem;
+  text-align: center;
+}
+
+.level-body-kojinsa {
+  display: grid;
+  grid-template-columns: repeat(2, 83px);
+  align-items: start;
+}
+
+/* 响应式：窄屏时个人差变成下方 */
+@media (max-width: 1024px) {
+  .level-body-wrapper {
+    flex-direction: column;
+  }
+  
+  .level-body-kojinsa-wrapper {
+    width: 100%;
+    border-left: none;
+    border-top: 2px dashed #c6a0dc;
+    border-radius: 0 0 5px 5px;
+    margin-top: 0.5rem;
+  }
+  
+  .level-body-kojinsa {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+}
+
+/* Chart Body (song card) */
+.chart-body {
+  display: inline-block;
+  margin: 4px;
+  position: relative;
+}
+
+.chart-body-image {
+  display: inline-block;
+  line-height: 0;
+  position: relative;
+  width: 75px;
+}
+
+/* Chart Jacket */
+.chart-jacket {
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  border-radius: 5px;
+  border: 3px solid #333;
+  box-shadow: 2px 2px 5px #3c3c3c;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 0.25rem;
+  background-color: #eee;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Type Border Colors */
+.chart-jacket.type-stamina {
+  border-color: #99CCFF;
+}
+.chart-jacket.type-balanced {
+  border-color: #FFCC00;
+}
+.chart-jacket.type-technique {
+  border-color: #FF8080;
+}
+
+.chart-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+/* Chart Version 2 (左上角紫色三角 三边白边框) */
+.chart-version2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 32px;
+  height: 32px;
+  z-index: 10;
+}
+
+.chart-version2::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+}
+
+.chart-version2::after {
+  content: '';
+  position: absolute;
+  top: 1.5px;
+  left: 1.5px;
+  width: 27px;
+  height: 27px;
+  background-color: #9966CC;
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+}
+
+/* Chart GTDR (左上角橙色三角 三边白边框) */
+.chart-gtdr {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 32px;
+  height: 32px;
+  z-index: 10;
+}
+
+.chart-gtdr::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+}
+
+.chart-gtdr::after {
+  content: '';
+  position: absolute;
+  top: 1.5px;
+  left: 1.5px;
+  width: 27px;
+  height: 27px;
+  background-color: #FF8400;
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+}
+
+/* Chart SDVX (左上角淡蓝色三角 三边白边框) */
+.chart-sdvx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 32px;
+  height: 32px;
+  z-index: 10;
+}
+
+.chart-sdvx::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+}
+
+.chart-sdvx::after {
+  content: '';
+  position: absolute;
+  top: 1.5px;
+  left: 1.5px;
+  width: 27px;
+  height: 27px;
+  background-color: #00BFFF;
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+}
+
+/* Chart Level (corner rectangle) */
+.chart-level {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1;
+  padding: 3px 5px;
+  z-index: 1;
+  border-radius: 3px 0 0 0;
+}
+
+.difficulty-bsc {
+  background-color: #11B500;
+}
+.difficulty-adv {
+  background-color: #FF8400;
+}
+.difficulty-ext {
+  background-color: #FF2F57;
+}
+
+/* Difficulty Colors (文字样式) */
+.difficulty-bsc,
+.difficulty-adv,
+.difficulty-ext {
+  color: #fff;
+  text-shadow: 1px 0 #000, -1px 0 #000, 0 1px #000, 0 -1px #000;
+}
+
+/* Chart Title */
+.chart-title {
+  background-color: #333;
+  color: #fff;
+  font-size: 0.6em;
+  line-height: 1.2;
+  padding: 0.15rem 0.25rem;
+  text-align: center;
+  width: 100%;
+  border-radius: 0 0 3px 3px;
+  word-break: break-word;
+}
+
+/* Chart Tooltip (hover) */
+.chart-tooltip {
+  display: none;
+  position: absolute;
+  background: rgba(30, 30, 35, 0.95);
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  z-index: 1000;
+  min-width: 260px;
+  pointer-events: none;
+  line-height: 1.4;
+}
+
+/* 垂直方向：上方（默认） */
+.chart-tooltip.tooltip-top {
+  bottom: calc(100% + 10px);
+  top: auto;
+}
+
+/* 垂直方向：下方 */
+.chart-tooltip.tooltip-bottom {
+  top: calc(100% + 10px);
+  bottom: auto;
+}
+
+/* 水平方向：居中（默认） */
+.chart-tooltip.tooltip-center {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* 水平方向：靠左（tooltip 向右展开） */
+.chart-tooltip.tooltip-left {
+  left: 0;
+  transform: none;
+}
+
+/* 水平方向：靠右（tooltip 向左展开） */
+.chart-tooltip.tooltip-right {
+  right: 0;
+  left: auto;
+  transform: none;
+}
+
+/* 箭头 - 上方居中 */
+.chart-tooltip.tooltip-top.tooltip-center::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 8px solid transparent;
+  border-top-color: rgba(30, 30, 35, 0.95);
+}
+
+/* 箭头 - 上方靠左 */
+.chart-tooltip.tooltip-top.tooltip-left::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 30px;
+  border: 8px solid transparent;
+  border-top-color: rgba(30, 30, 35, 0.95);
+}
+
+/* 箭头 - 上方靠右 */
+.chart-tooltip.tooltip-top.tooltip-right::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  right: 30px;
+  left: auto;
+  border: 8px solid transparent;
+  border-top-color: rgba(30, 30, 35, 0.95);
+}
+
+/* 箭头 - 下方居中 */
+.chart-tooltip.tooltip-bottom.tooltip-center::after {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  top: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 8px solid transparent;
+  border-bottom-color: rgba(30, 30, 35, 0.95);
+}
+
+/* 箭头 - 下方靠左 */
+.chart-tooltip.tooltip-bottom.tooltip-left::after {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  top: auto;
+  left: 30px;
+  border: 8px solid transparent;
+  border-bottom-color: rgba(30, 30, 35, 0.95);
+}
+
+/* 箭头 - 下方靠右 */
+.chart-tooltip.tooltip-bottom.tooltip-right::after {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  top: auto;
+  right: 30px;
+  left: auto;
+  border: 8px solid transparent;
+  border-bottom-color: rgba(30, 30, 35, 0.95);
+}
+
+.chart-body-image:hover .chart-tooltip {
+  display: flex;
+  gap: 12px;
+}
+
+.tooltip-jacket {
+  flex-shrink: 0;
+  width: 80px;
+  height: 80px;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 2px solid #555;
+}
+
+.tooltip-jacket img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tooltip-info {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.tooltip-title {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #fff;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.tooltip-artist {
+  font-size: 0.75rem;
+  color: #aaa;
+  margin-bottom: 4px;
+  white-space: nowrap;
+}
+
+.tooltip-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+.tooltip-label {
+  color: #888;
+}
+
+.tooltip-value {
+  color: #fff;
+  font-weight: 500;
+}
+
+.tooltip-version {
+  font-size: 0.7rem;
+  color: #888;
+  margin-top: 4px;
+  text-align: right;
+}
+
+.tooltip-diff {
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.tooltip-diff-bsc {
+  background: #11B500;
+  color: #fff;
+}
+
+.tooltip-diff-adv {
+  background: #FF8400;
+  color: #fff;
+}
+
+.tooltip-diff-ext {
+  background: #FF2F57;
+  color: #fff;
+}
+
+/* ===== 排序指示器样式 ===== */
+.sort-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0;
+  margin-bottom: 0.5rem;
+  /* 对齐：左边与sidebar左边缘对齐，右边留0.5rem间距到个人差紫线 */
+  margin-left: 0.5rem;
+  margin-right: calc(2 * 83px + 0.5rem + 0.5rem + 0.5rem);
+}
+
+@media (max-width: 1024px) {
+  .sort-indicator {
+    margin-right: 0.5rem;
+  }
+}
+
+.sort-label {
+  font-weight: 600;
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
+.sort-label-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.sort-label-group-right {
+  align-items: flex-end;
+}
+
+.sort-sub {
+  font-size: 0.75rem;
+  white-space: nowrap;
+  position: absolute;
+  top: 100%;
+}
+
+.sort-label-group .sort-sub {
+  color: #3498DB;  /* 地力 蓝 */
+}
+
+.sort-label-group-right .sort-sub {
+  color: #FF6B6B;  /* 手法 红 */
+}
+
+/* ===== 表格注释 ===== */
+.table-note {
+  text-align: right;
+  font-size: 0.75rem;
+  color: #888;
+  padding: 0.3rem 0.5rem;
+  margin-top: 0.5rem;
+}
+
+/* ===== Footer 鸣谢 ===== */
+.site-footer {
+  background-color: #fcfcfc;
+  font-size: 0.75rem;
+  margin: 1rem 0;
+  padding: 0.5rem 0;
+  text-align: center;
+  width: 100%;
+  color: #666;
+}
+
+/* 手机端注释和鸣谢字体缩小 */
+@media (max-width: 1024px) {
+  .table-note {
+    font-size: 0.6rem;
+    padding: 0.2rem 0.3rem;
+  }
+  
+  .site-footer {
+    font-size: 0.6rem;
+  }
+}
+
+.footer-line {
+  margin: 0.2rem 0;
+}
+
+.footer-link {
+  margin-top: 0.3rem;
+}
+
+.footer-link a {
+  color: #888;
+  text-decoration: none;
+}
+
+.footer-link a:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
+.sort-stamina { color: #3498DB; }    /* 地力 蓝 */
+.sort-balanced { color: #F1C40F; }   /* 综合 金 */
+.sort-technique { color: #FF6B6B; }  /* 手法 红 */
+
+/* 箭头线条 */
+.sort-arrow-line {
+  flex: 1;
+  height: 3px;
+  position: relative;
+  margin: 0 0.5rem;
+}
+
+/* 左边箭头：蓝色，箭头在左边指向地力 */
+.sort-arrow-left {
+  background: linear-gradient(90deg, #3498DB 0%, #F1C40F 100%);
+  margin-left: 8px;  /* 给三角形尖端留空间 */
+}
+.sort-arrow-left::before {
+  content: '';
+  position: absolute;
+  left: -8px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 6px solid transparent;
+  border-right: 8px solid #3498DB;
+}
+
+/* 右边箭头：红色，箭头在右边指向手法 */
+.sort-arrow-right {
+  background: linear-gradient(90deg, #F1C40F 0%, #FF6B6B 100%);
+  margin-right: 8px;  /* 给三角形尖端留空间 */
+}
+.sort-arrow-right::after {
+  content: '';
+  position: absolute;
+  right: -8px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 6px solid transparent;
+  border-left: 8px solid #FF6B6B;
+}

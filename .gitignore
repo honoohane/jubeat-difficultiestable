@@ -1,9 +1,18 @@
 # 参考文件
 maya/
 
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
 # macOS
 .DS_Store
 
 # IDE
 .vscode/
 .idea/
+
+# Logs
+*.log

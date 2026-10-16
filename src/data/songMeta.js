@@ -1,6 +1,6 @@
 // Jubeat 全曲元数据
-// 来源: jubeat_list.csv + jacketMapping.js (version)
-// 总计: 1121 首歌
+// 来源: atwiki (pages/2334, 2333) + 现有 songMeta.js (version)
+// 总计: 1150 首歌
 // 字段: title, normalizedTitle, artist, bpm, version, bscLevel/advLevel/extLevel, bscNotes/advNotes/extNotes
 
 export const songMeta = [
@@ -13109,6 +13109,19 @@ export const songMeta = [
     "extNotes": 642
   },
   {
+    "title": "IRIS OUT",
+    "normalizedTitle": "IRIS OUT",
+    "artist": "米津玄師",
+    "bpm": "135",
+    "version": "jubeat beyond the Ave.",
+    "bscLevel": "2",
+    "advLevel": "5",
+    "extLevel": "8",
+    "bscNotes": 160,
+    "advNotes": 318,
+    "extNotes": 472
+  },
+  {
     "title": "あおばの足音",
     "normalizedTitle": "あおばの足音",
     "artist": "駄菓子O型",
@@ -13135,6 +13148,19 @@ export const songMeta = [
     "extNotes": 695
   },
   {
+    "title": "イガク",
+    "normalizedTitle": "イガク",
+    "artist": "原口沙輔",
+    "bpm": "170",
+    "version": "jubeat beyond the Ave.",
+    "bscLevel": "4",
+    "advLevel": "7",
+    "extLevel": "9.6",
+    "bscNotes": 306,
+    "advNotes": 627,
+    "extNotes": 877
+  },
+  {
     "title": "イマココ！この瞬間",
     "normalizedTitle": "イマココ!この瞬間",
     "artist": "日向美ビタースイーツ♪",
@@ -13146,6 +13172,19 @@ export const songMeta = [
     "bscNotes": 181,
     "advNotes": 393,
     "extNotes": 616
+  },
+  {
+    "title": "ウ”ィ”エ”",
+    "normalizedTitle": "ウ”ィ”エ”",
+    "artist": "バーバパパ",
+    "bpm": "155",
+    "version": "jubeat beyond the Ave.",
+    "bscLevel": "4",
+    "advLevel": "8",
+    "extLevel": "9.8",
+    "bscNotes": 432,
+    "advNotes": 630,
+    "extNotes": 761
   },
   {
     "title": "エクスプロウル",
@@ -13161,6 +13200,19 @@ export const songMeta = [
     "extNotes": 793
   },
   {
+    "title": "鏡に恋して",
+    "normalizedTitle": "鏡に恋して",
+    "artist": "礼賛",
+    "bpm": "133",
+    "version": "jubeat beyond the Ave.",
+    "bscLevel": "1",
+    "advLevel": "5",
+    "extLevel": "8",
+    "bscNotes": 123,
+    "advNotes": 356,
+    "extNotes": 638
+  },
+  {
     "title": "覚悟せよ！エンタンメ～ン ～より身の切り売り自暴自棄版～",
     "normalizedTitle": "覚悟せよ!エンタンメ~ン ~より身の切り売り自暴自棄版~",
     "artist": "マキシウキョウ",
@@ -13172,6 +13224,19 @@ export const songMeta = [
     "bscNotes": 340,
     "advNotes": 579,
     "extNotes": 841
+  },
+  {
+    "title": "華麗なる！音戯探偵ひなビタ♫",
+    "normalizedTitle": "華麗なる!音戯探偵ひなビタ♫",
+    "artist": "音戯探偵ひなビタ♫",
+    "bpm": "72-127",
+    "version": "jubeat beyond the Ave.",
+    "bscLevel": "2",
+    "advLevel": "6",
+    "extLevel": "9.6",
+    "bscNotes": 159,
+    "advNotes": 442,
+    "extNotes": 820
   },
   {
     "title": "ギザバ怪文書",
@@ -13187,6 +13252,19 @@ export const songMeta = [
     "extNotes": 866
   },
   {
+    "title": "ギミギミエンターテイメント",
+    "normalizedTitle": "ギミギミエンターテイメント",
+    "artist": "hololive IDOL PROJECT",
+    "bpm": "138-200",
+    "version": "jubeat beyond the Ave.",
+    "bscLevel": "3",
+    "advLevel": "7",
+    "extLevel": "9.4",
+    "bscNotes": 319,
+    "advNotes": 680,
+    "extNotes": 996
+  },
+  {
     "title": "ギャ・ギャ・ギャ・ギャラクシー！",
     "normalizedTitle": "ギャ・ギャ・ギャ・ギャラクシー!",
     "artist": "つきみぐー、",
@@ -13198,6 +13276,19 @@ export const songMeta = [
     "bscNotes": 271,
     "advNotes": 631,
     "extNotes": 888
+  },
+  {
+    "title": "極東の羊、テレキャスターと踊る",
+    "normalizedTitle": "極東の羊、テレキャスターと踊る",
+    "artist": "しゃろう",
+    "bpm": "130",
+    "version": "jubeat beyond the Ave.",
+    "bscLevel": "1",
+    "advLevel": "4",
+    "extLevel": "8",
+    "bscNotes": 105,
+    "advNotes": 268,
+    "extNotes": 640
   },
   {
     "title": "CRAZY ARTS",
@@ -13213,6 +13304,32 @@ export const songMeta = [
     "extNotes": 647
   },
   {
+    "title": "ケロ⑨destiny",
+    "normalizedTitle": "ケロ⑨destiny",
+    "artist": "Silver Forest",
+    "bpm": "172",
+    "version": "jubeat beyond the Ave.",
+    "bscLevel": "4",
+    "advLevel": "7",
+    "extLevel": "9.4",
+    "bscNotes": 306,
+    "advNotes": 561,
+    "extNotes": 913
+  },
+  {
+    "title": "Signs and Wonders",
+    "normalizedTitle": "Signs and Wonders",
+    "artist": "ネオン(CV:藤川茜)、芽兎めう(CV:五十嵐裕美)",
+    "bpm": "196",
+    "version": "jubeat beyond the Ave.",
+    "bscLevel": "1",
+    "advLevel": "3",
+    "extLevel": "6",
+    "bscNotes": 98,
+    "advNotes": 186,
+    "extNotes": 393
+  },
+  {
     "title": "少女レイ",
     "normalizedTitle": "少女レイ",
     "artist": "みきとP",
@@ -13224,6 +13341,19 @@ export const songMeta = [
     "bscNotes": 96,
     "advNotes": 228,
     "extNotes": 416
+  },
+  {
+    "title": "スカーレット警察のゲットーパトロール24時",
+    "normalizedTitle": "スカーレット警察のゲットーパトロール24時",
+    "artist": "七条レタスグループ",
+    "bpm": "160",
+    "version": "jubeat beyond the Ave.",
+    "bscLevel": "3",
+    "advLevel": "7",
+    "extLevel": "9.7",
+    "bscNotes": 244,
+    "advNotes": 554,
+    "extNotes": 828
   },
   {
     "title": "darinGGamers",
@@ -13239,30 +13369,56 @@ export const songMeta = [
     "extNotes": 608
   },
   {
-    "title": "ちゅ、多様性。",
-    "normalizedTitle": "ちゅ、多様性。",
-    "artist": "ano",
-    "bpm": "153",
-    "version": "jubeat beyond the Ave.",
-    "bscLevel": "2",
-    "advLevel": "6",
-    "extLevel": "9.0",
-    "bscNotes": 123,
-    "advNotes": 287,
-    "extNotes": 534
-  },
-  {
-    "title": "トウキョウ・シャンディ・ランデヴ",
-    "normalizedTitle": "トウキョウ・シャンディ・ランデヴ",
-    "artist": "(MAISONdes feat. 花譜, ツミキ)",
-    "bpm": "137",
+    "title": "てぇてぇアイデンティティ",
+    "normalizedTitle": "てぇてぇアイデンティティ",
+    "artist": "そりっどびーつ",
+    "bpm": "165",
     "version": "jubeat beyond the Ave.",
     "bscLevel": "3",
-    "advLevel": "5",
-    "extLevel": "9.3",
-    "bscNotes": 232,
-    "advNotes": 413,
-    "extNotes": 731
+    "advLevel": "6",
+    "extLevel": "9.2",
+    "bscNotes": 294,
+    "advNotes": 589,
+    "extNotes": 861
+  },
+  {
+    "title": "デビルGIRL",
+    "normalizedTitle": "デビルGIRL",
+    "artist": "Somari",
+    "bpm": "180",
+    "version": "jubeat beyond the Ave.",
+    "bscLevel": "4",
+    "advLevel": "7",
+    "extLevel": "9.7",
+    "bscNotes": 339,
+    "advNotes": 662,
+    "extNotes": 958
+  },
+  {
+    "title": "Nyan Cat",
+    "normalizedTitle": "Nyan Cat",
+    "artist": "daniwellP feat. 桃音モモ",
+    "bpm": "142",
+    "version": "jubeat beyond the Ave.",
+    "bscLevel": "3",
+    "advLevel": "6",
+    "extLevel": "9.4",
+    "bscNotes": 222,
+    "advNotes": 393,
+    "extNotes": 737
+  },
+  {
+    "title": "New Hero",
+    "normalizedTitle": "New Hero",
+    "artist": "Sakuzyo",
+    "bpm": "150",
+    "version": "jubeat beyond the Ave.",
+    "bscLevel": "3",
+    "advLevel": "6",
+    "extLevel": "9.2",
+    "bscNotes": 224,
+    "advNotes": 465,
+    "extNotes": 743
   },
   {
     "title": "ネハン",
@@ -13278,6 +13434,32 @@ export const songMeta = [
     "extNotes": 833
   },
   {
+    "title": "ハウトゥワープ",
+    "normalizedTitle": "ハウトゥワープ",
+    "artist": "ナユタン星人",
+    "bpm": "155",
+    "version": "jubeat beyond the Ave.",
+    "bscLevel": "3",
+    "advLevel": "5",
+    "extLevel": "9.1",
+    "bscNotes": 222,
+    "advNotes": 427,
+    "extNotes": 770
+  },
+  {
+    "title": "はちゃめちゃわちゃライフ！",
+    "normalizedTitle": "はちゃめちゃわちゃライフ!",
+    "artist": "FRUITS ZIPPER",
+    "bpm": "176",
+    "version": "jubeat beyond the Ave.",
+    "bscLevel": "3",
+    "advLevel": "7",
+    "extLevel": "9.1",
+    "bscNotes": 349,
+    "advNotes": 744,
+    "extNotes": 956
+  },
+  {
     "title": "はらぺこヒーロー",
     "normalizedTitle": "はらぺこヒーロー",
     "artist": "回せ！グルーヴ開発部",
@@ -13291,6 +13473,32 @@ export const songMeta = [
     "extNotes": 784
   },
   {
+    "title": "B.B.K.K.B.K.K.",
+    "normalizedTitle": "B.B.K.K.B.K.K.",
+    "artist": "nora2r",
+    "bpm": "170",
+    "version": "jubeat beyond the Ave.",
+    "bscLevel": "4",
+    "advLevel": "8",
+    "extLevel": "9.6",
+    "bscNotes": 353,
+    "advNotes": 706,
+    "extNotes": 979
+  },
+  {
+    "title": "Big Daddy",
+    "normalizedTitle": "Big Daddy",
+    "artist": "USAO",
+    "bpm": "190",
+    "version": "jubeat beyond the Ave.",
+    "bscLevel": "4",
+    "advLevel": "8",
+    "extLevel": "9.8",
+    "bscNotes": 313,
+    "advNotes": 725,
+    "extNotes": 904
+  },
+  {
     "title": "悲報！ワイ！ニート！",
     "normalizedTitle": "悲報!ワイ!ニート!",
     "artist": "Shu",
@@ -13302,6 +13510,19 @@ export const songMeta = [
     "bscNotes": 365,
     "advNotes": 683,
     "extNotes": 934
+  },
+  {
+    "title": "Bassline Crack",
+    "normalizedTitle": "Bassline Crack",
+    "artist": "Getty",
+    "bpm": "175",
+    "version": "jubeat beyond the Ave.",
+    "bscLevel": "4",
+    "advLevel": "8",
+    "extLevel": "9.7",
+    "bscNotes": 305,
+    "advNotes": 651,
+    "extNotes": 968
   },
   {
     "title": "Help me, ERINNNNNN!!",
@@ -13356,6 +13577,19 @@ export const songMeta = [
     "extNotes": 822
   },
   {
+    "title": "MEGALOVANIA",
+    "normalizedTitle": "MEGALOVANIA",
+    "artist": "Toby Fox",
+    "bpm": "240",
+    "version": "jubeat beyond the Ave.",
+    "bscLevel": "4",
+    "advLevel": "8",
+    "extLevel": "10.0",
+    "bscNotes": 317,
+    "advNotes": 673,
+    "extNotes": 888
+  },
+  {
     "title": "メズマライザー",
     "normalizedTitle": "メズマライザー",
     "artist": "サツキ",
@@ -13369,6 +13603,19 @@ export const songMeta = [
     "extNotes": 988
   },
   {
+    "title": "夢色ワンダー",
+    "normalizedTitle": "夢色ワンダー",
+    "artist": "hololive IDOL PROJECT",
+    "bpm": "135-208",
+    "version": "jubeat beyond the Ave.",
+    "bscLevel": "2",
+    "advLevel": "6",
+    "extLevel": "8",
+    "bscNotes": 206,
+    "advNotes": 533,
+    "extNotes": 777
+  },
+  {
     "title": "ロマンシングエスケープ",
     "normalizedTitle": "ロマンシングエスケープ",
     "artist": "ここなつ2.0",
@@ -13380,6 +13627,19 @@ export const songMeta = [
     "bscNotes": 152,
     "advNotes": 295,
     "extNotes": 427
+  },
+  {
+    "title": "我ら!ゴミ分別団",
+    "normalizedTitle": "我ら!ゴミ分別団",
+    "artist": "かてらざわ",
+    "bpm": "166",
+    "version": "jubeat beyond the Ave.",
+    "bscLevel": "3",
+    "advLevel": "6",
+    "extLevel": "9.3",
+    "bscNotes": 263,
+    "advNotes": 567,
+    "extNotes": 753
   },
   {
     "title": "クラゲファンタジーソーダ",
@@ -14259,7 +14519,7 @@ export const songMeta = [
     "bpm": "190",
     "version": "jubeat beyond the Ave.",
     "bscLevel": "4",
-    "advLevel": "8",
+    "advLevel": "7",
     "extLevel": "10.4",
     "bscNotes": 354,
     "advNotes": 589,
@@ -14576,5 +14836,122 @@ export const songMeta = [
     "bscNotes": 276,
     "advNotes": 553,
     "extNotes": 849
+  },
+  {
+    "title": "シュボレアちゃん星の交信",
+    "normalizedTitle": "シュボレアちゃん星の交信",
+    "artist": "工藤吉三（ベイシスケイプ）",
+    "bpm": "180",
+    "version": "jubeat beyond the Ave.",
+    "bscLevel": "5",
+    "advLevel": "7",
+    "extLevel": "10.4",
+    "bscNotes": 385,
+    "advNotes": 529,
+    "extNotes": 808
+  },
+  {
+    "title": "朧月覆う雲をも裂きぬ",
+    "normalizedTitle": "朧月覆う雲をも裂きぬ",
+    "artist": "かめりあ feat. 藍月なくる",
+    "bpm": "192",
+    "version": "jubeat beyond the Ave.",
+    "bscLevel": "5",
+    "advLevel": "9.2",
+    "extLevel": "10.4",
+    "bscNotes": 350,
+    "advNotes": 674,
+    "extNotes": 923
+  },
+  {
+    "title": "RUINA",
+    "normalizedTitle": "RUINA",
+    "artist": "Dustup VS MAX MAXIMIZER",
+    "bpm": "160",
+    "version": "jubeat beyond the Ave.",
+    "bscLevel": "5",
+    "advLevel": "9.1",
+    "extLevel": "10.7",
+    "bscNotes": 391,
+    "advNotes": 730,
+    "extNotes": 888
+  },
+  {
+    "title": "不沈艦CANDY",
+    "normalizedTitle": "不沈艦CANDY",
+    "artist": "Risk Junk",
+    "bpm": "188",
+    "version": "jubeat beyond the Ave.",
+    "bscLevel": "4",
+    "advLevel": "7",
+    "extLevel": "9.5",
+    "bscNotes": 368,
+    "advNotes": 609,
+    "extNotes": 810
+  },
+  {
+    "title": "Seta Para Cima↑↑",
+    "normalizedTitle": "Seta Para Cima↑↑",
+    "artist": "BEMANI Sound Team “U1 overground”",
+    "bpm": "140",
+    "version": "jubeat beyond the Ave.",
+    "bscLevel": "4",
+    "advLevel": "7",
+    "extLevel": "9.7",
+    "bscNotes": 330,
+    "advNotes": 541,
+    "extNotes": 727
+  },
+  {
+    "title": "Cross Fire",
+    "normalizedTitle": "Cross Fire",
+    "artist": "Hommarju vs RoughSketch",
+    "bpm": "180",
+    "version": "jubeat beyond the Ave.",
+    "bscLevel": "4",
+    "advLevel": "8",
+    "extLevel": "10.4",
+    "bscNotes": 362,
+    "advNotes": 648,
+    "extNotes": 867
+  },
+  {
+    "title": "断罪のミメシス",
+    "normalizedTitle": "断罪のミメシス",
+    "artist": "KE!JU",
+    "bpm": "250",
+    "version": "jubeat beyond the Ave.",
+    "bscLevel": "5",
+    "advLevel": "8",
+    "extLevel": "10.6",
+    "bscNotes": 379,
+    "advNotes": 700,
+    "extNotes": 1046
+  },
+  {
+    "title": "Any%",
+    "normalizedTitle": "Any%",
+    "artist": "めめめ",
+    "bpm": "157-177",
+    "version": "jubeat beyond the Ave.",
+    "bscLevel": "3",
+    "advLevel": "9.5",
+    "extLevel": "10.5",
+    "bscNotes": 289,
+    "advNotes": 621,
+    "extNotes": 871
+  },
+  {
+    "title": "Smintheus",
+    "normalizedTitle": "Smintheus",
+    "artist": "TAN1CHU",
+    "bpm": "228-250",
+    "version": "jubeat beyond the Ave.",
+    "bscLevel": "4",
+    "advLevel": "8",
+    "extLevel": "10.6",
+    "bscNotes": 419,
+    "advNotes": 707,
+    "extNotes": 975
   }
 ]

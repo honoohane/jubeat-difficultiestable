@@ -150,7 +150,7 @@ const getDifficultyClass = (difficulty) => {
 const SongCard = ({ song }) => {
   const meta = titleToMeta[song.title]
   const notes = getSongNotes(song.title, song.difficulty)
-  const [tooltipPos, setTooltipPos] = useState({ vertical: 'top', horizontal: 'center' })
+  const [tooltipPos, setTooltipPos] = useState(null)
   const cardRef = useRef(null)
   
   const handleMouseEnter = () => {
@@ -194,6 +194,7 @@ const SongCard = ({ song }) => {
       data-difficulty={song.difficulty}
       ref={cardRef}
       onMouseEnter={handleMouseEnter}
+      onMouseLeave={() => setTooltipPos(null)}
     >
       <div className="chart-body-image">
         <div className={`chart-jacket ${getDifficultyClass(song.difficulty)} type-${song.type}`}>
@@ -218,7 +219,7 @@ const SongCard = ({ song }) => {
         
         {/* Hover Tooltip */}
         <div 
-          className={`chart-tooltip tooltip-${tooltipPos.vertical} tooltip-${tooltipPos.horizontal}`}
+          className={tooltipPos ? `chart-tooltip is-positioned tooltip-${tooltipPos.vertical} tooltip-${tooltipPos.horizontal}` : 'chart-tooltip'}
         >
           <div className="tooltip-jacket">
             <img src={getJacketUrl(song)} alt={song.title} />

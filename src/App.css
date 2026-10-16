@@ -1155,7 +1155,8 @@
   border-bottom-color: rgba(30, 30, 35, 0.95);
 }
 
-.chart-body-image:hover .chart-tooltip {
+/* 位置算好后才显示，避免手机端先居中再跳位 */
+.chart-body-image:hover .chart-tooltip.is-positioned {
   display: flex;
   gap: 12px;
 }

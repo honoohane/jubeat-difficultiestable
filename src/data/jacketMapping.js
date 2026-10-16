@@ -121,6 +121,7 @@ export const titleToId = {
   "Crazy Shuffle": "90000160",
   "Crescive Volt": "11000156",
   "Croissant": "11000077",
+  "Cross Fire": "11000233",
   "Crosswind": "10000062",
   "DANCE ALL NIGHT": "50000277",
   "DEATH WORMHOLE": "90000237",

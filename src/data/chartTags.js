@@ -55,7 +55,7 @@ export const chartTags = [
     "customLevel": "12.0",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 1,
     "tag": null
   },
@@ -69,7 +69,7 @@ export const chartTags = [
     "customLevel": "12.0",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 2,
     "tag": null
   },
@@ -195,7 +195,7 @@ export const chartTags = [
     "customLevel": "11.8",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 3,
     "tag": null
   },
@@ -237,7 +237,7 @@ export const chartTags = [
     "customLevel": "11.8",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 6,
     "tag": null
   },
@@ -447,7 +447,7 @@ export const chartTags = [
     "customLevel": "11.7",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 12,
     "tag": null
   },
@@ -522,6 +522,20 @@ export const chartTags = [
     "tag": null
   },
   {
+    "id": 403,
+    "title": "RUINA",
+    "jacketTitle": "RUINA",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.7",
+    "customLevel": "11.7",
+    "type": "stamina",
+    "isKojinsa": true,
+    "region": "jp",
+    "order": 2,
+    "tag": null
+  },
+  {
     "id": 38,
     "title": "Prey",
     "jacketTitle": "Prey",
@@ -531,8 +545,8 @@ export const chartTags = [
     "customLevel": "11.7",
     "type": "stamina",
     "isKojinsa": true,
-    "region": "jp",
-    "order": 2,
+    "region": "cn",
+    "order": 3,
     "tag": null
   },
   {
@@ -546,7 +560,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": true,
     "region": "jp",
-    "order": 3,
+    "order": 4,
     "tag": null
   },
   {
@@ -559,7 +573,7 @@ export const chartTags = [
     "customLevel": "11.6",
     "type": "stamina",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 1,
     "tag": null
   },
@@ -685,7 +699,7 @@ export const chartTags = [
     "customLevel": "11.6",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 10,
     "tag": null
   },
@@ -741,7 +755,7 @@ export const chartTags = [
     "customLevel": "11.6",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 14,
     "tag": null
   },
@@ -755,7 +769,7 @@ export const chartTags = [
     "customLevel": "11.6",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 15,
     "tag": null
   },
@@ -881,7 +895,7 @@ export const chartTags = [
     "customLevel": "11.6",
     "type": "stamina",
     "isKojinsa": true,
-    "region": "jp",
+    "region": "cn",
     "order": 1,
     "tag": null
   },
@@ -1012,6 +1026,20 @@ export const chartTags = [
     "tag": null
   },
   {
+    "id": 405,
+    "title": "Smintheus",
+    "jacketTitle": "Smintheus",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.6",
+    "customLevel": "11.5",
+    "type": "balanced",
+    "isKojinsa": false,
+    "region": "jp",
+    "order": 9,
+    "tag": null
+  },
+  {
     "id": 73,
     "title": "Catch Our Fire!",
     "jacketTitle": "Catch Our Fire!",
@@ -1022,7 +1050,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 9,
+    "order": 10,
     "tag": null
   },
   {
@@ -1036,7 +1064,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 10,
+    "order": 11,
     "tag": null
   },
   {
@@ -1050,7 +1078,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 11,
+    "order": 12,
     "tag": null
   },
   {
@@ -1064,7 +1092,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 12,
+    "order": 13,
     "tag": null
   },
   {
@@ -1078,7 +1106,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 13,
+    "order": 14,
     "tag": null
   },
   {
@@ -1092,7 +1120,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 14,
+    "order": 15,
     "tag": null
   },
   {
@@ -1106,7 +1134,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 15,
+    "order": 16,
     "tag": null
   },
   {
@@ -1120,7 +1148,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 16,
+    "order": 17,
     "tag": null
   },
   {
@@ -1134,7 +1162,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 17,
+    "order": 18,
     "tag": null
   },
   {
@@ -1148,7 +1176,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 18,
+    "order": 19,
     "tag": null
   },
   {
@@ -1162,7 +1190,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 19,
+    "order": 20,
     "tag": null
   },
   {
@@ -1176,7 +1204,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 20,
+    "order": 21,
     "tag": null
   },
   {
@@ -1189,8 +1217,8 @@ export const chartTags = [
     "customLevel": "11.5",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
-    "order": 21,
+    "region": "cn",
+    "order": 22,
     "tag": null
   },
   {
@@ -1204,7 +1232,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 22,
+    "order": 23,
     "tag": null
   },
   {
@@ -1218,7 +1246,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 23,
+    "order": 24,
     "tag": null
   },
   {
@@ -1232,7 +1260,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 24,
+    "order": 25,
     "tag": null
   },
   {
@@ -1246,7 +1274,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 25,
+    "order": 26,
     "tag": null
   },
   {
@@ -1260,7 +1288,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "jp",
-    "order": 26,
+    "order": 27,
     "tag": null
   },
   {
@@ -1274,7 +1302,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "jp",
-    "order": 27,
+    "order": 28,
     "tag": null
   },
   {
@@ -1301,8 +1329,22 @@ export const chartTags = [
     "customLevel": "11.5",
     "type": "technique",
     "isKojinsa": true,
-    "region": "jp",
+    "region": "cn",
     "order": 2,
+    "tag": null
+  },
+  {
+    "id": 404,
+    "title": "断罪のミメシス",
+    "jacketTitle": "断罪のミメシス",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.6",
+    "customLevel": "11.4",
+    "type": "stamina",
+    "isKojinsa": false,
+    "region": "jp",
+    "order": 1,
     "tag": null
   },
   {
@@ -1316,7 +1358,7 @@ export const chartTags = [
     "type": "stamina",
     "isKojinsa": false,
     "region": "jp",
-    "order": 1,
+    "order": 2,
     "tag": null
   },
   {
@@ -1330,7 +1372,7 @@ export const chartTags = [
     "type": "stamina",
     "isKojinsa": false,
     "region": "jp",
-    "order": 2,
+    "order": 3,
     "tag": null
   },
   {
@@ -1344,7 +1386,7 @@ export const chartTags = [
     "type": "stamina",
     "isKojinsa": false,
     "region": "jp",
-    "order": 3,
+    "order": 4,
     "tag": null
   },
   {
@@ -1358,7 +1400,7 @@ export const chartTags = [
     "type": "stamina",
     "isKojinsa": false,
     "region": "cn",
-    "order": 4,
+    "order": 5,
     "tag": null
   },
   {
@@ -1372,7 +1414,7 @@ export const chartTags = [
     "type": "stamina",
     "isKojinsa": false,
     "region": "jp",
-    "order": 5,
+    "order": 6,
     "tag": null
   },
   {
@@ -1386,7 +1428,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 6,
+    "order": 7,
     "tag": null
   },
   {
@@ -1400,7 +1442,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 7,
+    "order": 8,
     "tag": null
   },
   {
@@ -1414,7 +1456,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 8,
+    "order": 9,
     "tag": null
   },
   {
@@ -1428,7 +1470,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 9,
+    "order": 10,
     "tag": null
   },
   {
@@ -1442,7 +1484,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 10,
+    "order": 11,
     "tag": null
   },
   {
@@ -1456,7 +1498,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 11,
+    "order": 12,
     "tag": null
   },
   {
@@ -1469,8 +1511,8 @@ export const chartTags = [
     "customLevel": "11.4",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
-    "order": 12,
+    "region": "cn",
+    "order": 13,
     "tag": null
   },
   {
@@ -1484,7 +1526,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 13,
+    "order": 14,
     "tag": null
   },
   {
@@ -1498,7 +1540,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 14,
+    "order": 15,
     "tag": null
   },
   {
@@ -1512,7 +1554,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 15,
+    "order": 16,
     "tag": null
   },
   {
@@ -1526,7 +1568,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 16,
+    "order": 17,
     "tag": null
   },
   {
@@ -1539,8 +1581,8 @@ export const chartTags = [
     "customLevel": "11.4",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
-    "order": 17,
+    "region": "cn",
+    "order": 18,
     "tag": null
   },
   {
@@ -1554,7 +1596,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 18,
+    "order": 19,
     "tag": null
   },
   {
@@ -1568,7 +1610,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 19,
+    "order": 20,
     "tag": null
   },
   {
@@ -1582,7 +1624,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "cn",
-    "order": 20,
+    "order": 21,
     "tag": null
   },
   {
@@ -1596,7 +1638,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "jp",
-    "order": 21,
+    "order": 22,
     "tag": null
   },
   {
@@ -1610,7 +1652,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "cn",
-    "order": 22,
+    "order": 23,
     "tag": null
   },
   {
@@ -1624,7 +1666,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "jp",
-    "order": 23,
+    "order": 24,
     "tag": null
   },
   {
@@ -1638,7 +1680,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "jp",
-    "order": 24,
+    "order": 25,
     "tag": null
   },
   {
@@ -1903,7 +1945,7 @@ export const chartTags = [
     "customLevel": "11.3",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 17,
     "tag": null
   },
@@ -1987,7 +2029,7 @@ export const chartTags = [
     "customLevel": "11.3",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 23,
     "tag": null
   },
@@ -2099,7 +2141,7 @@ export const chartTags = [
     "customLevel": "11.2",
     "type": "stamina",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 2,
     "tag": null
   },
@@ -2141,7 +2183,7 @@ export const chartTags = [
     "customLevel": "11.2",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 5,
     "tag": null
   },
@@ -2239,7 +2281,7 @@ export const chartTags = [
     "customLevel": "11.2",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 12,
     "tag": null
   },
@@ -2267,7 +2309,7 @@ export const chartTags = [
     "customLevel": "11.2",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 14,
     "tag": null
   },
@@ -2300,6 +2342,20 @@ export const chartTags = [
     "tag": null
   },
   {
+    "id": 406,
+    "title": "Any%",
+    "jacketTitle": "Any%",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.5",
+    "customLevel": "11.2",
+    "type": "balanced",
+    "isKojinsa": false,
+    "region": "jp",
+    "order": 17,
+    "tag": null
+  },
+  {
     "id": 165,
     "title": "HEAVENLY MOON",
     "jacketTitle": "HEAVENLY MOON",
@@ -2310,7 +2366,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 17,
+    "order": 18,
     "tag": null
   },
   {
@@ -2324,7 +2380,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 18,
+    "order": 19,
     "tag": "厳"
   },
   {
@@ -2337,8 +2393,8 @@ export const chartTags = [
     "customLevel": "11.2",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
-    "order": 19,
+    "region": "cn",
+    "order": 20,
     "tag": null
   },
   {
@@ -2352,7 +2408,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 20,
+    "order": 21,
     "tag": null
   },
   {
@@ -2366,7 +2422,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 21,
+    "order": 22,
     "tag": null
   },
   {
@@ -2380,7 +2436,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn_only",
-    "order": 22,
+    "order": 23,
     "tag": null
   },
   {
@@ -2394,7 +2450,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 23,
+    "order": 24,
     "tag": null
   },
   {
@@ -2407,8 +2463,8 @@ export const chartTags = [
     "customLevel": "11.2",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
-    "order": 24,
+    "region": "cn",
+    "order": 25,
     "tag": null
   },
   {
@@ -2421,8 +2477,8 @@ export const chartTags = [
     "customLevel": "11.2",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
-    "order": 25,
+    "region": "cn",
+    "order": 26,
     "tag": null
   },
   {
@@ -2436,7 +2492,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 26,
+    "order": 27,
     "tag": null
   },
   {
@@ -2450,7 +2506,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 27,
+    "order": 28,
     "tag": null
   },
   {
@@ -2463,8 +2519,8 @@ export const chartTags = [
     "customLevel": "11.2",
     "type": "technique",
     "isKojinsa": false,
-    "region": "jp",
-    "order": 28,
+    "region": "cn",
+    "order": 29,
     "tag": null
   },
   {
@@ -2478,7 +2534,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "cn",
-    "order": 29,
+    "order": 30,
     "tag": null
   },
   {
@@ -2608,6 +2664,20 @@ export const chartTags = [
     "tag": null
   },
   {
+    "id": 407,
+    "title": "Cross Fire",
+    "jacketTitle": "Cross Fire",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.4",
+    "customLevel": "11.1",
+    "type": "balanced",
+    "isKojinsa": false,
+    "region": "jp",
+    "order": 8,
+    "tag": null
+  },
+  {
     "id": 187,
     "title": "EX-MASSIVE FIGHTER",
     "jacketTitle": "EX-MASSIVE FIGHTER",
@@ -2618,7 +2688,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 8,
+    "order": 9,
     "tag": null
   },
   {
@@ -2632,7 +2702,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 9,
+    "order": 10,
     "tag": null
   },
   {
@@ -2646,7 +2716,21 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 10,
+    "order": 11,
+    "tag": null
+  },
+  {
+    "id": 408,
+    "title": "朧月覆う雲をも裂きぬ",
+    "jacketTitle": "朧月覆う雲をも裂きぬ",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.4",
+    "customLevel": "11.1",
+    "type": "balanced",
+    "isKojinsa": false,
+    "region": "jp",
+    "order": 12,
     "tag": null
   },
   {
@@ -2660,7 +2744,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 11,
+    "order": 13,
     "tag": null
   },
   {
@@ -2674,7 +2758,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 12,
+    "order": 14,
     "tag": null
   },
   {
@@ -2688,7 +2772,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 13,
+    "order": 15,
     "tag": null
   },
   {
@@ -2702,7 +2786,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 14,
+    "order": 16,
     "tag": null
   },
   {
@@ -2715,8 +2799,8 @@ export const chartTags = [
     "customLevel": "11.1",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
-    "order": 15,
+    "region": "cn",
+    "order": 17,
     "tag": null
   },
   {
@@ -2730,7 +2814,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 16,
+    "order": 18,
     "tag": null
   },
   {
@@ -2743,8 +2827,8 @@ export const chartTags = [
     "customLevel": "11.1",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
-    "order": 17,
+    "region": "cn",
+    "order": 19,
     "tag": null
   },
   {
@@ -2758,7 +2842,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 18,
+    "order": 20,
     "tag": null
   },
   {
@@ -2772,7 +2856,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 19,
+    "order": 21,
     "tag": null
   },
   {
@@ -2785,8 +2869,8 @@ export const chartTags = [
     "customLevel": "11.1",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
-    "order": 20,
+    "region": "cn",
+    "order": 22,
     "tag": null
   },
   {
@@ -2800,7 +2884,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 21,
+    "order": 23,
     "tag": null
   },
   {
@@ -2813,8 +2897,8 @@ export const chartTags = [
     "customLevel": "11.1",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
-    "order": 22,
+    "region": "cn",
+    "order": 24,
     "tag": null
   },
   {
@@ -2828,7 +2912,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 23,
+    "order": 25,
     "tag": null
   },
   {
@@ -2841,8 +2925,8 @@ export const chartTags = [
     "customLevel": "11.1",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
-    "order": 24,
+    "region": "cn",
+    "order": 26,
     "tag": null
   },
   {
@@ -2856,7 +2940,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 25,
+    "order": 27,
     "tag": null
   },
   {
@@ -2870,7 +2954,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "jp",
-    "order": 26,
+    "order": 28,
     "tag": null
   },
   {
@@ -2884,7 +2968,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "jp",
-    "order": 27,
+    "order": 29,
     "tag": null
   },
   {
@@ -2897,7 +2981,7 @@ export const chartTags = [
     "customLevel": "11.1",
     "type": "balanced",
     "isKojinsa": true,
-    "region": "jp",
+    "region": "cn",
     "order": 1,
     "tag": null
   },
@@ -3084,6 +3168,20 @@ export const chartTags = [
     "tag": null
   },
   {
+    "id": 409,
+    "title": "シュボレアちゃん星の交信",
+    "jacketTitle": "シュボレアちゃん星の交信",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.4",
+    "customLevel": "11.0",
+    "type": "balanced",
+    "isKojinsa": false,
+    "region": "jp",
+    "order": 13,
+    "tag": null
+  },
+  {
     "id": 221,
     "title": "BILLION MONEY BAZOOKA",
     "jacketTitle": "BILLION MONEY BAZOOKA",
@@ -3094,7 +3192,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 13,
+    "order": 14,
     "tag": null
   },
   {
@@ -3108,7 +3206,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 14,
+    "order": 15,
     "tag": null
   },
   {
@@ -3122,7 +3220,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 15,
+    "order": 16,
     "tag": null
   },
   {
@@ -3136,7 +3234,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 16,
+    "order": 17,
     "tag": null
   },
   {
@@ -3150,7 +3248,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 17,
+    "order": 18,
     "tag": null
   },
   {
@@ -3164,7 +3262,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 18,
+    "order": 19,
     "tag": null
   },
   {
@@ -3178,7 +3276,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 19,
+    "order": 20,
     "tag": null
   },
   {
@@ -3192,7 +3290,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 20,
+    "order": 21,
     "tag": null
   },
   {
@@ -3206,7 +3304,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 21,
+    "order": 22,
     "tag": null
   },
   {
@@ -3220,7 +3318,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 22,
+    "order": 23,
     "tag": null
   },
   {
@@ -3234,7 +3332,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 23,
+    "order": 24,
     "tag": null
   },
   {
@@ -3248,7 +3346,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 24,
+    "order": 25,
     "tag": null
   },
   {
@@ -3262,7 +3360,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 25,
+    "order": 26,
     "tag": null
   },
   {
@@ -3276,7 +3374,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 26,
+    "order": 27,
     "tag": null
   },
   {
@@ -3290,7 +3388,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 27,
+    "order": 28,
     "tag": null
   },
   {
@@ -3304,7 +3402,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 28,
+    "order": 29,
     "tag": null
   },
   {
@@ -3318,7 +3416,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 29,
+    "order": 30,
     "tag": null
   },
   {
@@ -3331,8 +3429,8 @@ export const chartTags = [
     "customLevel": "11.0",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
-    "order": 30,
+    "region": "cn",
+    "order": 31,
     "tag": null
   },
   {
@@ -3346,7 +3444,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "jp",
-    "order": 31,
+    "order": 32,
     "tag": null
   },
   {
@@ -3360,7 +3458,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "jp",
-    "order": 32,
+    "order": 33,
     "tag": null
   },
   {
@@ -3373,7 +3471,7 @@ export const chartTags = [
     "customLevel": "11.0",
     "type": "stamina",
     "isKojinsa": true,
-    "region": "jp",
+    "region": "cn",
     "order": 1,
     "tag": null
   },
@@ -3471,7 +3569,7 @@ export const chartTags = [
     "customLevel": "10.9",
     "type": "stamina",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 4,
     "tag": null
   },
@@ -3485,7 +3583,7 @@ export const chartTags = [
     "customLevel": "10.9",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 5,
     "tag": null
   },
@@ -3723,7 +3821,7 @@ export const chartTags = [
     "customLevel": "10.9",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 22,
     "tag": null
   },
@@ -3765,7 +3863,7 @@ export const chartTags = [
     "customLevel": "10.9",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 25,
     "tag": null
   },
@@ -4129,7 +4227,7 @@ export const chartTags = [
     "customLevel": "10.8",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 18,
     "tag": null
   },
@@ -4297,7 +4395,7 @@ export const chartTags = [
     "customLevel": "10.7",
     "type": "stamina",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 1,
     "tag": null
   },
@@ -4395,7 +4493,7 @@ export const chartTags = [
     "customLevel": "10.7",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 8,
     "tag": null
   },
@@ -4675,7 +4773,7 @@ export const chartTags = [
     "customLevel": "10.6",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 3,
     "tag": null
   },
@@ -4815,7 +4913,7 @@ export const chartTags = [
     "customLevel": "10.6",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 13,
     "tag": null
   },
@@ -4843,7 +4941,7 @@ export const chartTags = [
     "customLevel": "10.6",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 15,
     "tag": null
   },
@@ -4913,7 +5011,7 @@ export const chartTags = [
     "customLevel": "10.6",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 20,
     "tag": null
   },
@@ -5081,7 +5179,7 @@ export const chartTags = [
     "customLevel": "10.5",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 7,
     "tag": null
   },
@@ -5123,7 +5221,7 @@ export const chartTags = [
     "customLevel": "10.5",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 10,
     "tag": null
   },
@@ -5291,7 +5389,7 @@ export const chartTags = [
     "customLevel": "10.4",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 3,
     "tag": null
   },
@@ -5389,7 +5487,7 @@ export const chartTags = [
     "customLevel": "10.4",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 10,
     "tag": null
   },
@@ -5576,6 +5674,20 @@ export const chartTags = [
     "tag": null
   },
   {
+    "id": 410,
+    "title": "MEGALOVANIA",
+    "jacketTitle": "MEGALOVANIA",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.0",
+    "customLevel": "10.2",
+    "type": "balanced",
+    "isKojinsa": false,
+    "region": "jp",
+    "order": 4,
+    "tag": null
+  },
+  {
     "id": 399,
     "title": "Russian Snowy Dance",
     "jacketTitle": "Russian Snowy Dance",
@@ -5599,7 +5711,7 @@ export const chartTags = [
     "customLevel": "10.1",
     "type": "technique",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 2,
     "tag": null
   },

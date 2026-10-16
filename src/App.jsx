@@ -8,7 +8,8 @@ import { titleToId } from './data/jacketMapping'
 const ALL_LEVELS = [
   '12.0++', '12.0+', '12.0',
   '11.9', '11.8', '11.7', '11.6', '11.5', '11.4', '11.3', '11.2', '11.1', '11.0',
-  '10.9', '10.8', '10.7', '10.6', '10.5', '10.4', '10.3', '10.2', '10.1', '10.0', '10.0-', '10.0--'
+  '10.9', '10.8', '10.7', '10.6', '10.5', '10.4', '10.3', '10.2', '10.1', '10.0', '10.0-', '10.0--',
+  '未定'
 ]
 
 // 版本列表（显示顺序）
@@ -199,6 +200,7 @@ const SongCard = ({ song }) => {
           {song.version === 2 && <div className="chart-version2"></div>}
           {song.tag === 'GTDR' && <div className="chart-gtdr"></div>}
           {song.tag === 'SDVX' && <div className="chart-sdvx"></div>}
+          {song.region === 'cn_only' && <div className="chart-cn">CN</div>}
           <div className={`chart-level ${getDifficultyClass(song.difficulty)}`}>
             {song.officialLevel}
           </div>
@@ -437,7 +439,7 @@ function App() {
       return regionMatch && levelMatch &&
         selectedDifficulties.includes(song.difficulty) &&
         selectedCharts.includes(song.version) &&
-        selectedTypes.includes(song.type) &&
+        (song.type == null || selectedTypes.includes(song.type)) &&
         selectedVersions.includes(getSongVersion(song.title))
     })
   }, [selectedRegion, minLevel, maxLevel, selectedDifficulties, selectedCharts, selectedTypes, selectedVersions, searchQuery])
@@ -465,6 +467,29 @@ function App() {
     // 使用固定的等级顺序
     return { groups, sortedLevels: ALL_LEVELS }
   }, [filteredSongs])
+
+  const renderLevelRow = (level) => {
+    const { normal, kojinsa } = songsByLevel.groups[level]
+    return (
+      <div key={level} className="level-box">
+        <div className="level-sidebar">
+          <div className="level-sidebar-label" style={{ color: getLevelColor(level) }}>{formatLevelDisplay(level)}</div>
+          <div className="level-sidebar-count">{normal.length + kojinsa.length} 曲</div>
+        </div>
+        <div className="level-body-wrapper">
+          <div className="level-body level-body-normal">
+            {normal.map(song => <SongCard key={song.id} song={song} />)}
+          </div>
+          <div className="level-body-kojinsa-wrapper">
+            <div className="kojinsa-title">个人差</div>
+            <div className="level-body level-body-kojinsa">
+              {kojinsa.map(song => <SongCard key={song.id} song={song} />)}
+            </div>
+          </div>
+        </div>
+      </div>
+    )
+  }
 
   return (
     <div className="container">
@@ -800,42 +825,10 @@ function App() {
           )
         })()}
         
-        {/* 其他等级 (排除 12.0++, 12.0+, 12.0 和 10.0, 10.0-, 10.0--) */}
+        {/* 其他等级 (排除 12.0++, 12.0+, 12.0 和 10.0, 10.0-, 10.0-- 和 未定) */}
         {songsByLevel.sortedLevels
-          .filter(level => !['12.0++', '12.0+', '12.0', '10.0', '10.0-', '10.0--'].includes(level))
-          .map(level => {
-          const { normal, kojinsa } = songsByLevel.groups[level]
-          const totalCount = normal.length + kojinsa.length
-          
-          return (
-            <div key={level} className="level-box">
-              {/* 左侧边栏 */}
-              <div className="level-sidebar">
-                <div className="level-sidebar-label" style={{ color: getLevelColor(level) }}>{formatLevelDisplay(level)}</div>
-                <div className="level-sidebar-count">{totalCount} 曲</div>
-              </div>
-
-              <div className="level-body-wrapper">
-                {/* 左侧：普通谱 */}
-                <div className="level-body level-body-normal">
-                  {normal.map((song) => (
-                    <SongCard key={song.id} song={song} />
-                  ))}
-                </div>
-
-                {/* 右侧：个人差 */}
-                <div className="level-body-kojinsa-wrapper">
-                  <div className="kojinsa-title">个人差</div>
-                  <div className="level-body level-body-kojinsa">
-                    {kojinsa.map((song) => (
-                      <SongCard key={song.id} song={song} />
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-          )
-        })}
+          .filter(level => !['12.0++', '12.0+', '12.0', '10.0', '10.0-', '10.0--', '未定'].includes(level))
+          .map(renderLevelRow)}
 
         {/* 底部合并行: 10.0 / 10.0- / 10.0-- */}
         {(() => {
@@ -936,6 +929,9 @@ function App() {
             </div>
           )
         })()}
+
+        {/* 未定级 (新曲暂放) */}
+        {renderLevelRow('未定')}
       </div>
 
       {/* 注释行 */}

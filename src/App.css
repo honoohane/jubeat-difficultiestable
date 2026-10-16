@@ -994,6 +994,24 @@
   border-radius: 3px 0 0 0;
 }
 
+/* CN-only badge (top-right) */
+.chart-cn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 0.6rem;
+  font-weight: 700;
+  line-height: 1;
+  padding: 2px 4px;
+  z-index: 1;
+  border-radius: 0 0 0 3px;
+  background-color: #DE2910;
+  color: #fff;
+  text-shadow: 1px 0 #000, -1px 0 #000, 0 1px #000, 0 -1px #000;
+  user-select: none;
+}
+
 .difficulty-bsc {
   background-color: #11B500;
 }

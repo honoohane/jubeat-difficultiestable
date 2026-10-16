@@ -8,6 +8,7 @@
     REQUESTS_CA_BUNDLE=/path/to/company-ca-bundle.pem python3 scripts/fetch_song_meta.py
 
 version: 沿用现有 songMeta.js，新曲默认 DEFAULT_VERSION 并在终端列出
+wiki 上没有的国服特供曲在 CN_ONLY_SONGS 手工维护，追加到末尾
 依赖: pip install cloudscraper beautifulsoup4
 """
 
@@ -24,6 +25,34 @@ WIKI_PAGES = [
 ]
 OUTPUT_PATH = Path(__file__).parent.parent / 'src' / 'data' / 'songMeta.js'
 DEFAULT_VERSION = 'jubeat beyond the Ave.'
+CN_ONLY_VERSION = 'jubeat 音乐魔方'
+
+# (title, artist, bpm, bsc_level, adv_level, ext_level, ext_notes)  等级来源: remywiki AC_jb_China_2025
+CN_ONLY_SONGS = [
+    ('Heracles', 'Yooh', '193', '3', '7', '10.5', 921),
+    ('Wildfire', 'USAO', '203', '4', '8', '10.2', 898),
+    ('Booby Trap', 'Yooh', '200', '4', '7', '10.1', 834),
+    ('PUPA', 'モリモリあつし', '202', '4', '8', '10.5', 880),
+    ('RE!NCARN4T10N', 'xi', '186', '6', '9.1', '10.4', 976),
+    ('Celestial Axis', 'C1-02, Issues_Fan, 萝卜Liqi, Yorken', '154', '5', '8', '10.4', 750),
+    ('Road Hitta (Feat.符白牙)', 'ZAWA', '', '3', '8', '10.0', None),
+    ('Vania Mania', 'MYUKKE.', '135', '3', '7', '10.3', 845),
+    ('逆影 〜The Reversed Phantom〜', 'GENESA MUSIC "L\'avant"', '190', '5', '9.2', '10.6', 834),
+    ('Crystal Awakening', 'GENESA MUSIC "DynaSiren"', '187', '4', '7', '10.4', 939),
+    ('Remnath -jubeat Edit-', 'ぺのれり', '187', '5', '9.4', '10.5', 947),
+    ('Holy Knight', 'Yooh', '177', '4', '7', '10.0', 847),
+    ('REBEL', 'GENESA MUSIC "MoleQ"', '190', '4', '7', '10.1', 771),
+    ('Emblem of the Moon', 'dj TAKA', '150', '2', '8', '10.2', 866),
+    ('FUTURE is Dead', 'C-Show', '110-220', '6', '9.5', '10.7', 1001),
+    ('火狐之舞', '影虎。', '242', '4', '9.3', '10.3', 954),
+    ('ENDGAME', 'Yuta Imai', '222', '4', '8', '10.6', 1069),
+    ('Your SOUL Is Mine', 'fZy', '195', '5', '8', '10.4', 840),
+    ('ORIENTAL MESIA', 'Power Of Nature', '164', '5', '9.3', '10.7', 928),
+    ('Programmed Genom', 'kors k', '150', '3', '8', '10.4', 879),
+    ('Echoes of Sunfall', 'nora2r', '160', '4', '8', '10.2', 842),
+    ('アクマデ ~A Devil After All~', 'MYUKKE.', '155', '4', '7', '10.3', 1000),
+    ('THRERROR', '打打だいず', '206', '', '', '10.9', 1097),
+]
 
 # 每张表前 9 列固定为: 曲名, アーティスト, BPM, 難易度 BSC/ADV/EXT, ノート数 BSC/ADV/EXT
 FIELDS = ['title', 'artist', 'bpm', 'bsc_level', 'adv_level', 'ext_level',
@@ -145,6 +174,21 @@ def main():
             'extNotes': to_int(raw['ext_note']),
         })
 
+    for title, artist, bpm, bsc_level, adv_level, ext_level, ext_notes in CN_ONLY_SONGS:
+        songs.append({
+            'title': title,
+            'normalizedTitle': normalize_title(title),
+            'artist': artist,
+            'bpm': bpm,
+            'version': CN_ONLY_VERSION,
+            'bscLevel': bsc_level,
+            'advLevel': adv_level,
+            'extLevel': ext_level,
+            'bscNotes': None,
+            'advNotes': None,
+            'extNotes': ext_notes,
+        })
+
     new_set = {s['title'] for s in songs}
     removed = [s['title'] for s in existing if s['title'] not in new_set]
     changed = []
@@ -165,7 +209,7 @@ def main():
         print(f'  * {t}: {d}')
 
     js = f'''// Jubeat 全曲元数据
-// 来源: atwiki (pages/2334, 2333) + 现有 songMeta.js (version)
+// 来源: atwiki (pages/2334, 2333) + 现有 songMeta.js (version) + 国服特供曲 (手工)
 // 总计: {len(songs)} 首歌
 // 字段: title, normalizedTitle, artist, bpm, version, bscLevel/advLevel/extLevel, bscNotes/advNotes/extNotes
 

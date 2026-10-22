@@ -1442,3 +1442,25 @@
   border: 6px solid transparent;
   border-left: 8px solid #FF6B6B;
 }
+
+/* 手机端：封面默认 75px，放不下 3 张时等比缩小，保证至少 3 列 */
+@media (max-width: 1024px) {
+  .level-body-normal,
+  .level-body-kojinsa {
+    container-type: inline-size;
+  }
+
+  .level-body-normal .chart-body-image,
+  .level-body-normal .chart-jacket,
+  .level-body-kojinsa .chart-body-image,
+  .level-body-kojinsa .chart-jacket {
+    /* 每张卡另有左右 margin 共 8px，多减 1px 防止取整后换行 */
+    width: min(75px, calc(100cqw / 3 - 9px));
+  }
+
+  .level-body-normal .chart-jacket,
+  .level-body-kojinsa .chart-jacket {
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+}

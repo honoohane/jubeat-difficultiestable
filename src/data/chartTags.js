@@ -172,20 +172,6 @@ export const chartTags = [
     "tag": null
   },
   {
-    "id": 13,
-    "title": "Confiserie",
-    "jacketTitle": "Confiserie",
-    "difficulty": "EXT",
-    "version": 1,
-    "officialLevel": "10.7",
-    "customLevel": "11.8",
-    "type": "balanced",
-    "isKojinsa": false,
-    "region": "cn",
-    "order": 2,
-    "tag": null
-  },
-  {
     "id": 14,
     "title": "ドーパミン",
     "jacketTitle": "ドーパミン",
@@ -196,7 +182,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 3,
+    "order": 2,
     "tag": null
   },
   {
@@ -210,7 +196,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 4,
+    "order": 3,
     "tag": null
   },
   {
@@ -224,7 +210,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 5,
+    "order": 4,
     "tag": null
   },
   {
@@ -238,7 +224,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 6,
+    "order": 5,
     "tag": null
   },
   {
@@ -252,7 +238,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 7,
+    "order": 6,
     "tag": null
   },
   {
@@ -266,7 +252,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 8,
+    "order": 7,
     "tag": null
   },
   {
@@ -280,7 +266,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "cn",
-    "order": 9,
+    "order": 8,
     "tag": null
   },
   {
@@ -368,12 +354,12 @@ export const chartTags = [
     "tag": null
   },
   {
-    "id": 27,
-    "title": "Never See You Again",
-    "jacketTitle": "Never See You Again",
+    "id": 13,
+    "title": "Confiserie",
+    "jacketTitle": "Confiserie",
     "difficulty": "EXT",
     "version": 1,
-    "officialLevel": "10.6",
+    "officialLevel": "10.7",
     "customLevel": "11.7",
     "type": "balanced",
     "isKojinsa": false,
@@ -396,20 +382,6 @@ export const chartTags = [
     "tag": null
   },
   {
-    "id": 29,
-    "title": "[ ]DENTITY",
-    "jacketTitle": "[ ]DENTITY",
-    "difficulty": "EXT",
-    "version": 1,
-    "officialLevel": "10.7",
-    "customLevel": "11.7",
-    "type": "balanced",
-    "isKojinsa": false,
-    "region": "jp",
-    "order": 9,
-    "tag": null
-  },
-  {
     "id": 30,
     "title": "FLOWER",
     "jacketTitle": "FLOWER",
@@ -420,7 +392,35 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
+    "order": 9,
+    "tag": null
+  },
+  {
+    "id": 29,
+    "title": "[ ]DENTITY",
+    "jacketTitle": "[ ]DENTITY",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.7",
+    "customLevel": "11.7",
+    "type": "balanced",
+    "isKojinsa": false,
+    "region": "jp",
     "order": 10,
+    "tag": null
+  },
+  {
+    "id": 27,
+    "title": "Never See You Again",
+    "jacketTitle": "Never See You Again",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.6",
+    "customLevel": "11.7",
+    "type": "balanced",
+    "isKojinsa": false,
+    "region": "cn",
+    "order": 11,
     "tag": null
   },
   {
@@ -434,7 +434,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 11,
+    "order": 12,
     "tag": null
   },
   {
@@ -448,7 +448,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 12,
+    "order": 13,
     "tag": null
   },
   {
@@ -462,7 +462,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 13,
+    "order": 14,
     "tag": null
   },
   {
@@ -476,7 +476,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 14,
+    "order": 15,
     "tag": null
   },
   {
@@ -490,7 +490,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 15,
+    "order": 16,
     "tag": null
   },
   {
@@ -504,7 +504,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "jp",
-    "order": 16,
+    "order": 17,
     "tag": null
   },
   {
@@ -606,20 +606,6 @@ export const chartTags = [
     "tag": "G"
   },
   {
-    "id": 43,
-    "title": "Rampage☆Rag",
-    "jacketTitle": "Rampage☆Rag",
-    "difficulty": "EXT",
-    "version": 1,
-    "officialLevel": "10.5",
-    "customLevel": "11.6",
-    "type": "balanced",
-    "isKojinsa": false,
-    "region": "jp",
-    "order": 4,
-    "tag": null
-  },
-  {
     "id": 44,
     "title": "4x4 Parallel Universe",
     "jacketTitle": "4x4 Parallel Universe",
@@ -630,7 +616,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 5,
+    "order": 4,
     "tag": null
   },
   {
@@ -644,7 +630,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 6,
+    "order": 5,
     "tag": null
   },
   {
@@ -658,6 +644,20 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
+    "order": 6,
+    "tag": null
+  },
+  {
+    "id": 43,
+    "title": "Rampage☆Rag",
+    "jacketTitle": "Rampage☆Rag",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.5",
+    "customLevel": "11.6",
+    "type": "balanced",
+    "isKojinsa": false,
+    "region": "jp",
     "order": 7,
     "tag": null
   },
@@ -718,6 +718,20 @@ export const chartTags = [
     "tag": null
   },
   {
+    "id": 78,
+    "title": "veRtrageS",
+    "jacketTitle": "veRtrageS",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.7",
+    "customLevel": "11.6",
+    "type": "balanced",
+    "isKojinsa": false,
+    "region": "jp",
+    "order": 12,
+    "tag": null
+  },
+  {
     "id": 51,
     "title": "アガット",
     "jacketTitle": "アガット",
@@ -728,7 +742,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 12,
+    "order": 13,
     "tag": null
   },
   {
@@ -742,7 +756,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 13,
+    "order": 14,
     "tag": null
   },
   {
@@ -756,7 +770,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 14,
+    "order": 15,
     "tag": null
   },
   {
@@ -770,7 +784,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 15,
+    "order": 16,
     "tag": null
   },
   {
@@ -784,7 +798,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 16,
+    "order": 17,
     "tag": null
   },
   {
@@ -798,7 +812,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 17,
+    "order": 18,
     "tag": null
   },
   {
@@ -812,7 +826,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 18,
+    "order": 19,
     "tag": null
   },
   {
@@ -826,7 +840,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "jp",
-    "order": 19,
+    "order": 20,
     "tag": null
   },
   {
@@ -840,7 +854,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "jp",
-    "order": 20,
+    "order": 21,
     "tag": null
   },
   {
@@ -854,7 +868,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "jp",
-    "order": 21,
+    "order": 22,
     "tag": null
   },
   {
@@ -868,7 +882,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "jp",
-    "order": 22,
+    "order": 23,
     "tag": null
   },
   {
@@ -882,7 +896,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "jp",
-    "order": 23,
+    "order": 24,
     "tag": null
   },
   {
@@ -1026,9 +1040,9 @@ export const chartTags = [
     "tag": null
   },
   {
-    "id": 405,
-    "title": "Smintheus",
-    "jacketTitle": "Smintheus",
+    "id": 74,
+    "title": "VOLAQUAS",
+    "jacketTitle": "VOLAQUAS",
     "difficulty": "EXT",
     "version": 1,
     "officialLevel": "10.6",
@@ -1054,9 +1068,9 @@ export const chartTags = [
     "tag": null
   },
   {
-    "id": 74,
-    "title": "VOLAQUAS",
-    "jacketTitle": "VOLAQUAS",
+    "id": 405,
+    "title": "Smintheus",
+    "jacketTitle": "Smintheus",
     "difficulty": "EXT",
     "version": 1,
     "officialLevel": "10.6",
@@ -1110,20 +1124,6 @@ export const chartTags = [
     "tag": null
   },
   {
-    "id": 78,
-    "title": "veRtrageS",
-    "jacketTitle": "veRtrageS",
-    "difficulty": "EXT",
-    "version": 1,
-    "officialLevel": "10.7",
-    "customLevel": "11.5",
-    "type": "balanced",
-    "isKojinsa": false,
-    "region": "jp",
-    "order": 15,
-    "tag": null
-  },
-  {
     "id": 79,
     "title": "アガット[2]",
     "jacketTitle": "アガット",
@@ -1134,21 +1134,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 16,
-    "tag": null
-  },
-  {
-    "id": 80,
-    "title": "Welcome to the Mosh Pit",
-    "jacketTitle": "Welcome to the Mosh Pit",
-    "difficulty": "EXT",
-    "version": 1,
-    "officialLevel": "10.6",
-    "customLevel": "11.5",
-    "type": "balanced",
-    "isKojinsa": false,
-    "region": "cn",
-    "order": 17,
+    "order": 15,
     "tag": null
   },
   {
@@ -1162,7 +1148,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 18,
+    "order": 16,
     "tag": null
   },
   {
@@ -1176,7 +1162,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 19,
+    "order": 17,
     "tag": null
   },
   {
@@ -1190,7 +1176,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 20,
+    "order": 18,
     "tag": null
   },
   {
@@ -1204,7 +1190,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 21,
+    "order": 19,
     "tag": null
   },
   {
@@ -1218,7 +1204,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 22,
+    "order": 20,
     "tag": null
   },
   {
@@ -1232,7 +1218,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 23,
+    "order": 21,
     "tag": null
   },
   {
@@ -1246,7 +1232,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 24,
+    "order": 22,
     "tag": null
   },
   {
@@ -1260,7 +1246,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 25,
+    "order": 23,
     "tag": null
   },
   {
@@ -1274,7 +1260,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 26,
+    "order": 24,
     "tag": null
   },
   {
@@ -1288,7 +1274,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "jp",
-    "order": 27,
+    "order": 25,
     "tag": null
   },
   {
@@ -1302,7 +1288,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "jp",
-    "order": 28,
+    "order": 26,
     "tag": null
   },
   {
@@ -1446,48 +1432,6 @@ export const chartTags = [
     "tag": null
   },
   {
-    "id": 101,
-    "title": "Caldwell 99",
-    "jacketTitle": "Caldwell 99",
-    "difficulty": "EXT",
-    "version": 1,
-    "officialLevel": "10.4",
-    "customLevel": "11.4",
-    "type": "balanced",
-    "isKojinsa": false,
-    "region": "jp",
-    "order": 9,
-    "tag": null
-  },
-  {
-    "id": 102,
-    "title": "少年は空を辿る",
-    "jacketTitle": "少年は空を辿る",
-    "difficulty": "EXT",
-    "version": 1,
-    "officialLevel": "10.5",
-    "customLevel": "11.4",
-    "type": "balanced",
-    "isKojinsa": false,
-    "region": "cn",
-    "order": 10,
-    "tag": null
-  },
-  {
-    "id": 103,
-    "title": "Sky High",
-    "jacketTitle": "Sky High",
-    "difficulty": "EXT",
-    "version": 1,
-    "officialLevel": "10.6",
-    "customLevel": "11.4",
-    "type": "balanced",
-    "isKojinsa": false,
-    "region": "jp",
-    "order": 11,
-    "tag": null
-  },
-  {
     "id": 104,
     "title": "Megalara Garuda",
     "jacketTitle": "Megalara Garuda",
@@ -1498,7 +1442,21 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 12,
+    "order": 9,
+    "tag": null
+  },
+  {
+    "id": 101,
+    "title": "Caldwell 99",
+    "jacketTitle": "Caldwell 99",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.4",
+    "customLevel": "11.4",
+    "type": "balanced",
+    "isKojinsa": false,
+    "region": "jp",
+    "order": 10,
     "tag": null
   },
   {
@@ -1512,7 +1470,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 13,
+    "order": 11,
     "tag": null
   },
   {
@@ -1526,8 +1484,64 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
+    "order": 12,
+    "tag": null
+  },
+  {
+    "id": 102,
+    "title": "少年は空を辿る",
+    "jacketTitle": "少年は空を辿る",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.5",
+    "customLevel": "11.4",
+    "type": "balanced",
+    "isKojinsa": false,
+    "region": "cn",
+    "order": 13,
+    "tag": null
+  },
+  {
+    "id": 103,
+    "title": "Sky High",
+    "jacketTitle": "Sky High",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.6",
+    "customLevel": "11.4",
+    "type": "balanced",
+    "isKojinsa": false,
+    "region": "jp",
     "order": 14,
     "tag": null
+  },
+  {
+    "id": 80,
+    "title": "Welcome to the Mosh Pit",
+    "jacketTitle": "Welcome to the Mosh Pit",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.6",
+    "customLevel": "11.4",
+    "type": "balanced",
+    "isKojinsa": false,
+    "region": "cn",
+    "order": 15,
+    "tag": null
+  },
+  {
+    "id": 131,
+    "title": "Drenched in Air",
+    "jacketTitle": "Drenched in Air",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.3",
+    "customLevel": "11.4",
+    "type": "balanced",
+    "isKojinsa": false,
+    "region": "jp",
+    "order": 16,
+    "tag": "D"
   },
   {
     "id": 107,
@@ -1540,7 +1554,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 15,
+    "order": 17,
     "tag": null
   },
   {
@@ -1554,21 +1568,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 16,
-    "tag": null
-  },
-  {
-    "id": 109,
-    "title": "パピポペピプペパ",
-    "jacketTitle": "パピポペピプペパ",
-    "difficulty": "EXT",
-    "version": 1,
-    "officialLevel": "10.5",
-    "customLevel": "11.4",
-    "type": "balanced",
-    "isKojinsa": false,
-    "region": "cn",
-    "order": 17,
+    "order": 18,
     "tag": null
   },
   {
@@ -1582,7 +1582,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 18,
+    "order": 19,
     "tag": null
   },
   {
@@ -1596,7 +1596,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 19,
+    "order": 20,
     "tag": null
   },
   {
@@ -1610,7 +1610,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 20,
+    "order": 21,
     "tag": null
   },
   {
@@ -1624,7 +1624,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "cn",
-    "order": 21,
+    "order": 22,
     "tag": null
   },
   {
@@ -1638,7 +1638,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "jp",
-    "order": 22,
+    "order": 23,
     "tag": null
   },
   {
@@ -1652,7 +1652,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "cn",
-    "order": 23,
+    "order": 24,
     "tag": null
   },
   {
@@ -1666,7 +1666,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "jp",
-    "order": 24,
+    "order": 25,
     "tag": null
   },
   {
@@ -1680,7 +1680,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "jp",
-    "order": 25,
+    "order": 26,
     "tag": null
   },
   {
@@ -1824,6 +1824,20 @@ export const chartTags = [
     "tag": null
   },
   {
+    "id": 157,
+    "title": "閉塞的フレーション",
+    "jacketTitle": "閉塞的フレーション",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.5",
+    "customLevel": "11.3",
+    "type": "balanced",
+    "isKojinsa": false,
+    "region": "jp",
+    "order": 9,
+    "tag": null
+  },
+  {
     "id": 128,
     "title": "GAIA",
     "jacketTitle": "GAIA",
@@ -1834,7 +1848,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 9,
+    "order": 10,
     "tag": null
   },
   {
@@ -1848,7 +1862,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 10,
+    "order": 11,
     "tag": null
   },
   {
@@ -1862,22 +1876,8 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 11,
-    "tag": null
-  },
-  {
-    "id": 131,
-    "title": "Drenched in Air",
-    "jacketTitle": "Drenched in Air",
-    "difficulty": "EXT",
-    "version": 1,
-    "officialLevel": "10.3",
-    "customLevel": "11.3",
-    "type": "balanced",
-    "isKojinsa": false,
-    "region": "jp",
     "order": 12,
-    "tag": "D"
+    "tag": null
   },
   {
     "id": 132,
@@ -1978,6 +1978,20 @@ export const chartTags = [
     "tag": null
   },
   {
+    "id": 141,
+    "title": "雨上がりの空に",
+    "jacketTitle": "雨上がりの空に",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.5",
+    "customLevel": "11.3",
+    "type": "balanced",
+    "isKojinsa": false,
+    "region": "cn",
+    "order": 20,
+    "tag": null
+  },
+  {
     "id": 139,
     "title": "此岸の戯事",
     "jacketTitle": "此岸の戯事",
@@ -1988,7 +2002,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 20,
+    "order": 21,
     "tag": null
   },
   {
@@ -2002,13 +2016,13 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 21,
+    "order": 22,
     "tag": null
   },
   {
-    "id": 141,
-    "title": "雨上がりの空に",
-    "jacketTitle": "雨上がりの空に",
+    "id": 109,
+    "title": "パピポペピプペパ",
+    "jacketTitle": "パピポペピプペパ",
     "difficulty": "EXT",
     "version": 1,
     "officialLevel": "10.5",
@@ -2016,7 +2030,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 22,
+    "order": 23,
     "tag": null
   },
   {
@@ -2030,7 +2044,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 23,
+    "order": 24,
     "tag": null
   },
   {
@@ -2044,7 +2058,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 24,
+    "order": 25,
     "tag": null
   },
   {
@@ -2058,7 +2072,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 25,
+    "order": 26,
     "tag": null
   },
   {
@@ -2072,21 +2086,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "cn",
-    "order": 26,
-    "tag": null
-  },
-  {
-    "id": 146,
-    "title": "Nature (jubeat version)",
-    "jacketTitle": "Nature (jubeat version)",
-    "difficulty": "EXT",
-    "version": 1,
-    "officialLevel": "10.5",
-    "customLevel": "11.3",
-    "type": "stamina",
-    "isKojinsa": true,
-    "region": "jp",
-    "order": 1,
+    "order": 27,
     "tag": null
   },
   {
@@ -2100,7 +2100,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": true,
     "region": "jp",
-    "order": 2,
+    "order": 1,
     "tag": null
   },
   {
@@ -2114,7 +2114,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": true,
     "region": "jp",
-    "order": 3,
+    "order": 2,
     "tag": null
   },
   {
@@ -2202,20 +2202,6 @@ export const chartTags = [
     "tag": null
   },
   {
-    "id": 155,
-    "title": "ほおずき程度には赤い頭髪",
-    "jacketTitle": "ほおずき程度には赤い頭髪",
-    "difficulty": "EXT",
-    "version": 1,
-    "officialLevel": "10.4",
-    "customLevel": "11.2",
-    "type": "balanced",
-    "isKojinsa": false,
-    "region": "jp",
-    "order": 7,
-    "tag": null
-  },
-  {
     "id": 156,
     "title": "スーパー戦湯ババンバーン",
     "jacketTitle": "スーパー戦湯ババンバーン",
@@ -2226,21 +2212,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 8,
-    "tag": null
-  },
-  {
-    "id": 157,
-    "title": "閉塞的フレーション",
-    "jacketTitle": "閉塞的フレーション",
-    "difficulty": "EXT",
-    "version": 1,
-    "officialLevel": "10.5",
-    "customLevel": "11.2",
-    "type": "balanced",
-    "isKojinsa": false,
-    "region": "jp",
-    "order": 9,
+    "order": 7,
     "tag": null
   },
   {
@@ -2254,7 +2226,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 10,
+    "order": 8,
     "tag": null
   },
   {
@@ -2268,7 +2240,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 11,
+    "order": 9,
     "tag": null
   },
   {
@@ -2282,7 +2254,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 12,
+    "order": 10,
     "tag": null
   },
   {
@@ -2296,7 +2268,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 13,
+    "order": 11,
     "tag": null
   },
   {
@@ -2310,7 +2282,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 14,
+    "order": 12,
     "tag": null
   },
   {
@@ -2324,7 +2296,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 15,
+    "order": 13,
     "tag": null
   },
   {
@@ -2338,7 +2310,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 16,
+    "order": 14,
     "tag": null
   },
   {
@@ -2352,7 +2324,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 17,
+    "order": 15,
     "tag": null
   },
   {
@@ -2366,7 +2338,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 18,
+    "order": 16,
     "tag": null
   },
   {
@@ -2380,21 +2352,21 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 19,
+    "order": 17,
     "tag": "厳"
   },
   {
-    "id": 167,
-    "title": "Elysion ex machina",
-    "jacketTitle": "Elysion ex machina",
+    "id": 195,
+    "title": "お米の美味しい炊き方、そしてお米を食べることによるその効果。",
+    "jacketTitle": "お米の美味しい炊き方、そしてお米を食べることによるその効果。",
     "difficulty": "EXT",
     "version": 1,
-    "officialLevel": "10.3",
+    "officialLevel": "10.1",
     "customLevel": "11.2",
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 20,
+    "order": 18,
     "tag": null
   },
   {
@@ -2408,21 +2380,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 21,
-    "tag": null
-  },
-  {
-    "id": 169,
-    "title": "532nm",
-    "jacketTitle": "532nm",
-    "difficulty": "EXT",
-    "version": 1,
-    "officialLevel": "10.2",
-    "customLevel": "11.2",
-    "type": "balanced",
-    "isKojinsa": false,
-    "region": "cn",
-    "order": 22,
+    "order": 19,
     "tag": null
   },
   {
@@ -2436,7 +2394,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn_only",
-    "order": 23,
+    "order": 20,
     "tag": null
   },
   {
@@ -2450,7 +2408,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 24,
+    "order": 21,
     "tag": null
   },
   {
@@ -2464,7 +2422,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 25,
+    "order": 22,
     "tag": null
   },
   {
@@ -2478,7 +2436,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 26,
+    "order": 23,
     "tag": null
   },
   {
@@ -2492,7 +2450,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 27,
+    "order": 24,
     "tag": null
   },
   {
@@ -2506,7 +2464,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 28,
+    "order": 25,
     "tag": null
   },
   {
@@ -2520,7 +2478,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "cn",
-    "order": 29,
+    "order": 26,
     "tag": null
   },
   {
@@ -2534,7 +2492,21 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "cn",
-    "order": 30,
+    "order": 27,
+    "tag": null
+  },
+  {
+    "id": 146,
+    "title": "Nature (jubeat version)",
+    "jacketTitle": "Nature (jubeat version)",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.5",
+    "customLevel": "11.2",
+    "type": "stamina",
+    "isKojinsa": true,
+    "region": "jp",
+    "order": 1,
     "tag": null
   },
   {
@@ -2548,7 +2520,7 @@ export const chartTags = [
     "type": "stamina",
     "isKojinsa": true,
     "region": "cn",
-    "order": 1,
+    "order": 2,
     "tag": null
   },
   {
@@ -2562,7 +2534,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": true,
     "region": "jp",
-    "order": 2,
+    "order": 3,
     "tag": null
   },
   {
@@ -2594,20 +2566,6 @@ export const chartTags = [
     "tag": null
   },
   {
-    "id": 182,
-    "title": "Triple Counter",
-    "jacketTitle": "Triple Counter",
-    "difficulty": "EXT",
-    "version": 1,
-    "officialLevel": "10.4",
-    "customLevel": "11.1",
-    "type": "stamina",
-    "isKojinsa": false,
-    "region": "cn",
-    "order": 3,
-    "tag": null
-  },
-  {
     "id": 183,
     "title": "Dragon Blade",
     "jacketTitle": "Dragon Blade",
@@ -2618,7 +2576,7 @@ export const chartTags = [
     "type": "stamina",
     "isKojinsa": false,
     "region": "cn",
-    "order": 4,
+    "order": 3,
     "tag": null
   },
   {
@@ -2632,7 +2590,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 5,
+    "order": 4,
     "tag": null
   },
   {
@@ -2646,7 +2604,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 6,
+    "order": 5,
     "tag": null
   },
   {
@@ -2660,13 +2618,27 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 7,
+    "order": 6,
     "tag": null
   },
   {
     "id": 407,
     "title": "Cross Fire",
     "jacketTitle": "Cross Fire",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.4",
+    "customLevel": "11.1",
+    "type": "balanced",
+    "isKojinsa": false,
+    "region": "jp",
+    "order": 7,
+    "tag": null
+  },
+  {
+    "id": 155,
+    "title": "ほおずき程度には赤い頭髪",
+    "jacketTitle": "ほおずき程度には赤い頭髪",
     "difficulty": "EXT",
     "version": 1,
     "officialLevel": "10.4",
@@ -2804,20 +2776,6 @@ export const chartTags = [
     "tag": null
   },
   {
-    "id": 195,
-    "title": "お米の美味しい炊き方、そしてお米を食べることによるその効果。",
-    "jacketTitle": "お米の美味しい炊き方、そしてお米を食べることによるその効果。",
-    "difficulty": "EXT",
-    "version": 1,
-    "officialLevel": "10.1",
-    "customLevel": "11.1",
-    "type": "balanced",
-    "isKojinsa": false,
-    "region": "cn",
-    "order": 18,
-    "tag": null
-  },
-  {
     "id": 196,
     "title": "Grand Chariot",
     "jacketTitle": "Grand Chariot",
@@ -2828,7 +2786,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 19,
+    "order": 18,
     "tag": null
   },
   {
@@ -2842,6 +2800,20 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
+    "order": 19,
+    "tag": null
+  },
+  {
+    "id": 167,
+    "title": "Elysion ex machina",
+    "jacketTitle": "Elysion ex machina",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.3",
+    "customLevel": "11.1",
+    "type": "balanced",
+    "isKojinsa": false,
+    "region": "cn",
     "order": 20,
     "tag": null
   },
@@ -2916,6 +2888,34 @@ export const chartTags = [
     "tag": null
   },
   {
+    "id": 169,
+    "title": "532nm",
+    "jacketTitle": "532nm",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.2",
+    "customLevel": "11.1",
+    "type": "balanced",
+    "isKojinsa": false,
+    "region": "cn",
+    "order": 26,
+    "tag": null
+  },
+  {
+    "id": 235,
+    "title": "Pegasus",
+    "jacketTitle": "Pegasus",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.1",
+    "customLevel": "11.1",
+    "type": "balanced",
+    "isKojinsa": false,
+    "region": "cn",
+    "order": 27,
+    "tag": null
+  },
+  {
     "id": 203,
     "title": "旅の終わりと祝祭の夜",
     "jacketTitle": "旅の終わりと祝祭の夜",
@@ -2926,7 +2926,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 26,
+    "order": 28,
     "tag": null
   },
   {
@@ -2940,7 +2940,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 27,
+    "order": 29,
     "tag": null
   },
   {
@@ -2954,7 +2954,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "jp",
-    "order": 28,
+    "order": 30,
     "tag": null
   },
   {
@@ -2968,7 +2968,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "jp",
-    "order": 29,
+    "order": 31,
     "tag": null
   },
   {
@@ -3042,6 +3042,20 @@ export const chartTags = [
     "tag": null
   },
   {
+    "id": 182,
+    "title": "Triple Counter",
+    "jacketTitle": "Triple Counter",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.4",
+    "customLevel": "11.0",
+    "type": "stamina",
+    "isKojinsa": false,
+    "region": "cn",
+    "order": 4,
+    "tag": null
+  },
+  {
     "id": 212,
     "title": "Against the vulgar aggressor",
     "jacketTitle": "Against the vulgar aggressor",
@@ -3052,7 +3066,7 @@ export const chartTags = [
     "type": "stamina",
     "isKojinsa": false,
     "region": "jp",
-    "order": 4,
+    "order": 5,
     "tag": null
   },
   {
@@ -3066,7 +3080,7 @@ export const chartTags = [
     "type": "stamina",
     "isKojinsa": false,
     "region": "cn",
-    "order": 5,
+    "order": 6,
     "tag": null
   },
   {
@@ -3080,7 +3094,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 6,
+    "order": 7,
     "tag": null
   },
   {
@@ -3094,7 +3108,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 7,
+    "order": 8,
     "tag": null
   },
   {
@@ -3108,7 +3122,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 8,
+    "order": 9,
     "tag": null
   },
   {
@@ -3122,7 +3136,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 9,
+    "order": 10,
     "tag": "SDVX"
   },
   {
@@ -3136,7 +3150,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 10,
+    "order": 11,
     "tag": null
   },
   {
@@ -3150,7 +3164,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 11,
+    "order": 12,
     "tag": null
   },
   {
@@ -3164,27 +3178,13 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 12,
+    "order": 13,
     "tag": null
   },
   {
     "id": 409,
     "title": "シュボレアちゃん星の交信",
     "jacketTitle": "シュボレアちゃん星の交信",
-    "difficulty": "EXT",
-    "version": 1,
-    "officialLevel": "10.4",
-    "customLevel": "11.0",
-    "type": "balanced",
-    "isKojinsa": false,
-    "region": "jp",
-    "order": 13,
-    "tag": null
-  },
-  {
-    "id": 221,
-    "title": "BILLION MONEY BAZOOKA",
-    "jacketTitle": "BILLION MONEY BAZOOKA",
     "difficulty": "EXT",
     "version": 1,
     "officialLevel": "10.4",
@@ -3336,20 +3336,6 @@ export const chartTags = [
     "tag": null
   },
   {
-    "id": 232,
-    "title": "Sacrifice for Justice",
-    "jacketTitle": "Sacrifice for Justice",
-    "difficulty": "EXT",
-    "version": 1,
-    "officialLevel": "10.3",
-    "customLevel": "11.0",
-    "type": "balanced",
-    "isKojinsa": false,
-    "region": "cn",
-    "order": 25,
-    "tag": null
-  },
-  {
     "id": 233,
     "title": "chaplet[2]",
     "jacketTitle": "chaplet",
@@ -3360,7 +3346,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 26,
+    "order": 25,
     "tag": null
   },
   {
@@ -3374,21 +3360,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 27,
-    "tag": null
-  },
-  {
-    "id": 235,
-    "title": "Pegasus",
-    "jacketTitle": "Pegasus",
-    "difficulty": "EXT",
-    "version": 1,
-    "officialLevel": "10.1",
-    "customLevel": "11.0",
-    "type": "balanced",
-    "isKojinsa": false,
-    "region": "cn",
-    "order": 28,
+    "order": 26,
     "tag": null
   },
   {
@@ -3402,7 +3374,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 29,
+    "order": 27,
     "tag": null
   },
   {
@@ -3416,7 +3388,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 30,
+    "order": 28,
     "tag": null
   },
   {
@@ -3430,7 +3402,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 31,
+    "order": 29,
     "tag": null
   },
   {
@@ -3444,7 +3416,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "jp",
-    "order": 32,
+    "order": 30,
     "tag": null
   },
   {
@@ -3458,7 +3430,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "jp",
-    "order": 33,
+    "order": 31,
     "tag": null
   },
   {
@@ -3490,20 +3462,6 @@ export const chartTags = [
     "tag": null
   },
   {
-    "id": 243,
-    "title": "nalca",
-    "jacketTitle": "nalca",
-    "difficulty": "EXT",
-    "version": 1,
-    "officialLevel": "10.3",
-    "customLevel": "11.0",
-    "type": "balanced",
-    "isKojinsa": true,
-    "region": "jp",
-    "order": 3,
-    "tag": null
-  },
-  {
     "id": 244,
     "title": "ピザが食べたくてしょうがない皆さんの気持ちを代弁しました",
     "jacketTitle": "ピザが食べたくてしょうがない皆さんの気持ちを代弁しました",
@@ -3514,7 +3472,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": true,
     "region": "jp",
-    "order": 4,
+    "order": 3,
     "tag": null
   },
   {
@@ -3574,20 +3532,6 @@ export const chartTags = [
     "tag": null
   },
   {
-    "id": 249,
-    "title": "Slipstream",
-    "jacketTitle": "Slipstream",
-    "difficulty": "EXT",
-    "version": 1,
-    "officialLevel": "10.3",
-    "customLevel": "10.9",
-    "type": "balanced",
-    "isKojinsa": false,
-    "region": "cn",
-    "order": 5,
-    "tag": null
-  },
-  {
     "id": 250,
     "title": "True Blue",
     "jacketTitle": "True Blue",
@@ -3598,7 +3542,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 6,
+    "order": 5,
     "tag": null
   },
   {
@@ -3612,7 +3556,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 7,
+    "order": 6,
     "tag": null
   },
   {
@@ -3626,7 +3570,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 8,
+    "order": 7,
     "tag": null
   },
   {
@@ -3640,7 +3584,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 9,
+    "order": 8,
     "tag": null
   },
   {
@@ -3654,21 +3598,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 10,
-    "tag": null
-  },
-  {
-    "id": 255,
-    "title": "Wandering Gravity",
-    "jacketTitle": "Wandering Gravity",
-    "difficulty": "EXT",
-    "version": 1,
-    "officialLevel": "10.4",
-    "customLevel": "10.9",
-    "type": "balanced",
-    "isKojinsa": false,
-    "region": "cn",
-    "order": 11,
+    "order": 9,
     "tag": null
   },
   {
@@ -3682,7 +3612,49 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
+    "order": 10,
+    "tag": null
+  },
+  {
+    "id": 221,
+    "title": "BILLION MONEY BAZOOKA",
+    "jacketTitle": "BILLION MONEY BAZOOKA",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.4",
+    "customLevel": "10.9",
+    "type": "balanced",
+    "isKojinsa": false,
+    "region": "jp",
+    "order": 11,
+    "tag": null
+  },
+  {
+    "id": 291,
+    "title": "Arena Deiporta",
+    "jacketTitle": "Arena Deiporta",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.4",
+    "customLevel": "10.9",
+    "type": "balanced",
+    "isKojinsa": false,
+    "region": "jp",
     "order": 12,
+    "tag": null
+  },
+  {
+    "id": 292,
+    "title": "Squeeze",
+    "jacketTitle": "Squeeze",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.3",
+    "customLevel": "10.9",
+    "type": "balanced",
+    "isKojinsa": false,
+    "region": "jp",
+    "order": 13,
     "tag": null
   },
   {
@@ -3696,7 +3668,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 13,
+    "order": 14,
     "tag": null
   },
   {
@@ -3710,7 +3682,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 14,
+    "order": 15,
     "tag": null
   },
   {
@@ -3724,7 +3696,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 15,
+    "order": 16,
     "tag": null
   },
   {
@@ -3738,7 +3710,21 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 16,
+    "order": 17,
+    "tag": null
+  },
+  {
+    "id": 255,
+    "title": "Wandering Gravity",
+    "jacketTitle": "Wandering Gravity",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.4",
+    "customLevel": "10.9",
+    "type": "balanced",
+    "isKojinsa": false,
+    "region": "cn",
+    "order": 18,
     "tag": null
   },
   {
@@ -3752,7 +3738,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 17,
+    "order": 19,
     "tag": null
   },
   {
@@ -3766,7 +3752,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 18,
+    "order": 20,
     "tag": null
   },
   {
@@ -3780,7 +3766,21 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 19,
+    "order": 21,
+    "tag": null
+  },
+  {
+    "id": 232,
+    "title": "Sacrifice for Justice",
+    "jacketTitle": "Sacrifice for Justice",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.3",
+    "customLevel": "10.9",
+    "type": "balanced",
+    "isKojinsa": false,
+    "region": "cn",
+    "order": 22,
     "tag": null
   },
   {
@@ -3794,7 +3794,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 20,
+    "order": 23,
     "tag": null
   },
   {
@@ -3808,7 +3808,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 21,
+    "order": 24,
     "tag": null
   },
   {
@@ -3822,7 +3822,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 22,
+    "order": 25,
     "tag": null
   },
   {
@@ -3836,7 +3836,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 23,
+    "order": 26,
     "tag": null
   },
   {
@@ -3850,7 +3850,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 24,
+    "order": 27,
     "tag": null
   },
   {
@@ -3864,7 +3864,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 25,
+    "order": 28,
     "tag": null
   },
   {
@@ -3878,7 +3878,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 26,
+    "order": 29,
     "tag": null
   },
   {
@@ -3892,7 +3892,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 27,
+    "order": 30,
     "tag": null
   },
   {
@@ -3906,7 +3906,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 28,
+    "order": 31,
     "tag": null
   },
   {
@@ -3920,21 +3920,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 29,
-    "tag": null
-  },
-  {
-    "id": 274,
-    "title": "Crescive Volt",
-    "jacketTitle": "Crescive Volt",
-    "difficulty": "EXT",
-    "version": 1,
-    "officialLevel": "10.4",
-    "customLevel": "10.9",
-    "type": "technique",
-    "isKojinsa": false,
-    "region": "jp",
-    "order": 30,
+    "order": 32,
     "tag": null
   },
   {
@@ -3948,7 +3934,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "cn",
-    "order": 31,
+    "order": 33,
     "tag": null
   },
   {
@@ -3962,7 +3948,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "jp",
-    "order": 32,
+    "order": 34,
     "tag": null
   },
   {
@@ -3980,6 +3966,20 @@ export const chartTags = [
     "tag": null
   },
   {
+    "id": 243,
+    "title": "nalca",
+    "jacketTitle": "nalca",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.3",
+    "customLevel": "10.9",
+    "type": "balanced",
+    "isKojinsa": true,
+    "region": "jp",
+    "order": 2,
+    "tag": null
+  },
+  {
     "id": 278,
     "title": "バンブーソード・ガール",
     "jacketTitle": "バンブーソード・ガール",
@@ -3994,6 +3994,20 @@ export const chartTags = [
     "tag": null
   },
   {
+    "id": 307,
+    "title": "XENOViA",
+    "jacketTitle": "XENOViA",
+    "difficulty": "ADV",
+    "version": 1,
+    "officialLevel": "10.2",
+    "customLevel": "10.8",
+    "type": "stamina",
+    "isKojinsa": false,
+    "region": "cn",
+    "order": 2,
+    "tag": null
+  },
+  {
     "id": 279,
     "title": "€omet popcorn",
     "jacketTitle": "€omet popcorn",
@@ -4004,7 +4018,7 @@ export const chartTags = [
     "type": "stamina",
     "isKojinsa": false,
     "region": "jp",
-    "order": 2,
+    "order": 3,
     "tag": null
   },
   {
@@ -4018,21 +4032,21 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 3,
+    "order": 4,
     "tag": null
   },
   {
-    "id": 281,
-    "title": "Fireball",
-    "jacketTitle": "Fireball",
+    "id": 249,
+    "title": "Slipstream",
+    "jacketTitle": "Slipstream",
     "difficulty": "EXT",
     "version": 1,
-    "officialLevel": "10.2",
+    "officialLevel": "10.3",
     "customLevel": "10.8",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
-    "order": 4,
+    "region": "cn",
+    "order": 5,
     "tag": null
   },
   {
@@ -4046,20 +4060,6 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 5,
-    "tag": null
-  },
-  {
-    "id": 283,
-    "title": "ラプンツェル",
-    "jacketTitle": "ラプンツェル",
-    "difficulty": "EXT",
-    "version": 1,
-    "officialLevel": "10.2",
-    "customLevel": "10.8",
-    "type": "balanced",
-    "isKojinsa": false,
-    "region": "jp",
     "order": 6,
     "tag": null
   },
@@ -4162,34 +4162,6 @@ export const chartTags = [
     "tag": null
   },
   {
-    "id": 291,
-    "title": "Arena Deiporta",
-    "jacketTitle": "Arena Deiporta",
-    "difficulty": "EXT",
-    "version": 1,
-    "officialLevel": "10.4",
-    "customLevel": "10.8",
-    "type": "balanced",
-    "isKojinsa": false,
-    "region": "jp",
-    "order": 14,
-    "tag": null
-  },
-  {
-    "id": 292,
-    "title": "Squeeze",
-    "jacketTitle": "Squeeze",
-    "difficulty": "EXT",
-    "version": 1,
-    "officialLevel": "10.3",
-    "customLevel": "10.8",
-    "type": "balanced",
-    "isKojinsa": false,
-    "region": "jp",
-    "order": 15,
-    "tag": null
-  },
-  {
     "id": 293,
     "title": "Proof of the existence",
     "jacketTitle": "Proof of the existence",
@@ -4200,7 +4172,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 16,
+    "order": 14,
     "tag": null
   },
   {
@@ -4214,7 +4186,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 17,
+    "order": 15,
     "tag": null
   },
   {
@@ -4228,7 +4200,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 18,
+    "order": 16,
     "tag": null
   },
   {
@@ -4242,7 +4214,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 19,
+    "order": 17,
     "tag": null
   },
   {
@@ -4256,7 +4228,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 20,
+    "order": 18,
     "tag": null
   },
   {
@@ -4270,7 +4242,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 21,
+    "order": 19,
     "tag": null
   },
   {
@@ -4284,7 +4256,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 22,
+    "order": 20,
     "tag": null
   },
   {
@@ -4298,7 +4270,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 23,
+    "order": 21,
     "tag": null
   },
   {
@@ -4312,7 +4284,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 24,
+    "order": 22,
     "tag": null
   },
   {
@@ -4326,7 +4298,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 25,
+    "order": 23,
     "tag": null
   },
   {
@@ -4340,7 +4312,21 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 26,
+    "order": 24,
+    "tag": null
+  },
+  {
+    "id": 274,
+    "title": "Crescive Volt",
+    "jacketTitle": "Crescive Volt",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.4",
+    "customLevel": "10.8",
+    "type": "technique",
+    "isKojinsa": false,
+    "region": "jp",
+    "order": 25,
     "tag": null
   },
   {
@@ -4354,7 +4340,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "cn",
-    "order": 27,
+    "order": 26,
     "tag": null
   },
   {
@@ -4386,20 +4372,6 @@ export const chartTags = [
     "tag": null
   },
   {
-    "id": 307,
-    "title": "XENOViA",
-    "jacketTitle": "XENOViA",
-    "difficulty": "ADV",
-    "version": 1,
-    "officialLevel": "10.2",
-    "customLevel": "10.7",
-    "type": "stamina",
-    "isKojinsa": false,
-    "region": "cn",
-    "order": 1,
-    "tag": null
-  },
-  {
     "id": 308,
     "title": "トルコ行進曲",
     "jacketTitle": "トルコ行進曲",
@@ -4410,7 +4382,7 @@ export const chartTags = [
     "type": "stamina",
     "isKojinsa": false,
     "region": "jp",
-    "order": 2,
+    "order": 1,
     "tag": null
   },
   {
@@ -4424,7 +4396,7 @@ export const chartTags = [
     "type": "stamina",
     "isKojinsa": false,
     "region": "cn",
-    "order": 3,
+    "order": 2,
     "tag": null
   },
   {
@@ -4438,7 +4410,7 @@ export const chartTags = [
     "type": "stamina",
     "isKojinsa": false,
     "region": "jp",
-    "order": 4,
+    "order": 3,
     "tag": null
   },
   {
@@ -4452,7 +4424,7 @@ export const chartTags = [
     "type": "stamina",
     "isKojinsa": false,
     "region": "jp",
-    "order": 5,
+    "order": 4,
     "tag": null
   },
   {
@@ -4466,7 +4438,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 6,
+    "order": 5,
     "tag": null
   },
   {
@@ -4476,6 +4448,20 @@ export const chartTags = [
     "difficulty": "EXT",
     "version": 1,
     "officialLevel": "10.4",
+    "customLevel": "10.7",
+    "type": "balanced",
+    "isKojinsa": false,
+    "region": "jp",
+    "order": 6,
+    "tag": null
+  },
+  {
+    "id": 281,
+    "title": "Fireball",
+    "jacketTitle": "Fireball",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.2",
     "customLevel": "10.7",
     "type": "balanced",
     "isKojinsa": false,
@@ -4498,6 +4484,20 @@ export const chartTags = [
     "tag": null
   },
   {
+    "id": 283,
+    "title": "ラプンツェル",
+    "jacketTitle": "ラプンツェル",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.2",
+    "customLevel": "10.7",
+    "type": "balanced",
+    "isKojinsa": false,
+    "region": "jp",
+    "order": 9,
+    "tag": null
+  },
+  {
     "id": 315,
     "title": "December in Strasbourg",
     "jacketTitle": "December in Strasbourg",
@@ -4508,7 +4508,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 9,
+    "order": 10,
     "tag": null
   },
   {
@@ -4522,7 +4522,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 10,
+    "order": 11,
     "tag": null
   },
   {
@@ -4536,7 +4536,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 11,
+    "order": 12,
     "tag": null
   },
   {
@@ -4550,7 +4550,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 12,
+    "order": 13,
     "tag": null
   },
   {
@@ -4564,7 +4564,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 13,
+    "order": 14,
     "tag": null
   },
   {
@@ -4578,7 +4578,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 14,
+    "order": 15,
     "tag": null
   },
   {
@@ -4592,7 +4592,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 15,
+    "order": 16,
     "tag": null
   },
   {
@@ -4606,7 +4606,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 16,
+    "order": 17,
     "tag": null
   },
   {
@@ -4620,7 +4620,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 17,
+    "order": 18,
     "tag": null
   },
   {
@@ -4634,7 +4634,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 18,
+    "order": 19,
     "tag": null
   },
   {
@@ -4648,7 +4648,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 19,
+    "order": 20,
     "tag": null
   },
   {
@@ -4662,7 +4662,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 20,
+    "order": 21,
     "tag": null
   },
   {
@@ -4676,7 +4676,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "jp",
-    "order": 21,
+    "order": 22,
     "tag": "J"
   },
   {
@@ -4690,7 +4690,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "cn",
-    "order": 22,
+    "order": 23,
     "tag": null
   },
   {
@@ -4704,7 +4704,7 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "cn",
-    "order": 23,
+    "order": 24,
     "tag": null
   },
   {
@@ -4736,20 +4736,6 @@ export const chartTags = [
     "tag": null
   },
   {
-    "id": 332,
-    "title": "きらきらタイム☆",
-    "jacketTitle": "きらきらタイム☆",
-    "difficulty": "EXT",
-    "version": 1,
-    "officialLevel": "10.1",
-    "customLevel": "10.6",
-    "type": "stamina",
-    "isKojinsa": false,
-    "region": "jp",
-    "order": 1,
-    "tag": null
-  },
-  {
     "id": 333,
     "title": "crêpe suzette",
     "jacketTitle": "crêpe suzette",
@@ -4760,7 +4746,7 @@ export const chartTags = [
     "type": "stamina",
     "isKojinsa": false,
     "region": "jp",
-    "order": 2,
+    "order": 1,
     "tag": null
   },
   {
@@ -4774,7 +4760,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 3,
+    "order": 2,
     "tag": null
   },
   {
@@ -4788,7 +4774,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 4,
+    "order": 3,
     "tag": null
   },
   {
@@ -4802,7 +4788,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 5,
+    "order": 4,
     "tag": null
   },
   {
@@ -4816,7 +4802,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 6,
+    "order": 5,
     "tag": null
   },
   {
@@ -4830,7 +4816,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 7,
+    "order": 6,
     "tag": null
   },
   {
@@ -4844,21 +4830,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 8,
-    "tag": null
-  },
-  {
-    "id": 340,
-    "title": "チックタック＠ラビリンス",
-    "jacketTitle": "チックタック＠ラビリンス",
-    "difficulty": "EXT",
-    "version": 1,
-    "officialLevel": "10.2",
-    "customLevel": "10.6",
-    "type": "balanced",
-    "isKojinsa": false,
-    "region": "jp",
-    "order": 9,
+    "order": 7,
     "tag": null
   },
   {
@@ -4872,7 +4844,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 10,
+    "order": 8,
     "tag": null
   },
   {
@@ -4886,7 +4858,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 11,
+    "order": 9,
     "tag": null
   },
   {
@@ -4900,7 +4872,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 12,
+    "order": 10,
     "tag": null
   },
   {
@@ -4914,7 +4886,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 13,
+    "order": 11,
     "tag": null
   },
   {
@@ -4928,7 +4900,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 14,
+    "order": 12,
     "tag": null
   },
   {
@@ -4942,7 +4914,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 15,
+    "order": 13,
     "tag": null
   },
   {
@@ -4956,7 +4928,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 16,
+    "order": 14,
     "tag": null
   },
   {
@@ -4970,7 +4942,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 17,
+    "order": 15,
     "tag": null
   },
   {
@@ -4984,7 +4956,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 18,
+    "order": 16,
     "tag": null
   },
   {
@@ -4998,7 +4970,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 19,
+    "order": 17,
     "tag": null
   },
   {
@@ -5012,7 +4984,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 20,
+    "order": 18,
     "tag": null
   },
   {
@@ -5026,7 +4998,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 21,
+    "order": 19,
     "tag": null
   },
   {
@@ -5040,7 +5012,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 22,
+    "order": 20,
     "tag": null
   },
   {
@@ -5054,7 +5026,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 23,
+    "order": 21,
     "tag": null
   },
   {
@@ -5068,7 +5040,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 24,
+    "order": 22,
     "tag": null
   },
   {
@@ -5082,7 +5054,21 @@ export const chartTags = [
     "type": "technique",
     "isKojinsa": false,
     "region": "jp",
-    "order": 25,
+    "order": 23,
+    "tag": null
+  },
+  {
+    "id": 332,
+    "title": "きらきらタイム☆",
+    "jacketTitle": "きらきらタイム☆",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.1",
+    "customLevel": "10.5",
+    "type": "stamina",
+    "isKojinsa": false,
+    "region": "jp",
+    "order": 1,
     "tag": null
   },
   {
@@ -5096,7 +5082,7 @@ export const chartTags = [
     "type": "stamina",
     "isKojinsa": false,
     "region": "jp",
-    "order": 1,
+    "order": 2,
     "tag": null
   },
   {
@@ -5110,7 +5096,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 2,
+    "order": 3,
     "tag": null
   },
   {
@@ -5124,7 +5110,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn_only",
-    "order": 3,
+    "order": 4,
     "tag": null
   },
   {
@@ -5138,27 +5124,13 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 4,
+    "order": 5,
     "tag": null
   },
   {
     "id": 361,
     "title": "Timberwolves",
     "jacketTitle": "Timberwolves",
-    "difficulty": "EXT",
-    "version": 1,
-    "officialLevel": "10.1",
-    "customLevel": "10.5",
-    "type": "balanced",
-    "isKojinsa": false,
-    "region": "jp",
-    "order": 5,
-    "tag": null
-  },
-  {
-    "id": 362,
-    "title": "Pacify",
-    "jacketTitle": "Pacify",
     "difficulty": "EXT",
     "version": 1,
     "officialLevel": "10.1",
@@ -5184,6 +5156,20 @@ export const chartTags = [
     "tag": null
   },
   {
+    "id": 340,
+    "title": "チックタック＠ラビリンス",
+    "jacketTitle": "チックタック＠ラビリンス",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.2",
+    "customLevel": "10.5",
+    "type": "balanced",
+    "isKojinsa": false,
+    "region": "jp",
+    "order": 8,
+    "tag": null
+  },
+  {
     "id": 364,
     "title": "ユメブキ",
     "jacketTitle": "ユメブキ",
@@ -5194,7 +5180,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 8,
+    "order": 9,
     "tag": null
   },
   {
@@ -5208,7 +5194,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 9,
+    "order": 10,
     "tag": null
   },
   {
@@ -5222,20 +5208,6 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 10,
-    "tag": null
-  },
-  {
-    "id": 367,
-    "title": "Life Without You",
-    "jacketTitle": "Life Without You",
-    "difficulty": "EXT",
-    "version": 1,
-    "officialLevel": "10.1",
-    "customLevel": "10.5",
-    "type": "balanced",
-    "isKojinsa": false,
-    "region": "jp",
     "order": 11,
     "tag": null
   },
@@ -5366,20 +5338,6 @@ export const chartTags = [
     "tag": null
   },
   {
-    "id": 377,
-    "title": "過食性:アイドル症候群",
-    "jacketTitle": "過食性:アイドル症候群",
-    "difficulty": "EXT",
-    "version": 1,
-    "officialLevel": "10.0",
-    "customLevel": "10.4",
-    "type": "stamina",
-    "isKojinsa": false,
-    "region": "jp",
-    "order": 2,
-    "tag": null
-  },
-  {
     "id": 378,
     "title": "Get On The Floor",
     "jacketTitle": "Get On The Floor",
@@ -5390,7 +5348,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 3,
+    "order": 2,
     "tag": null
   },
   {
@@ -5404,7 +5362,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 4,
+    "order": 3,
     "tag": null
   },
   {
@@ -5418,7 +5376,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 5,
+    "order": 4,
     "tag": null
   },
   {
@@ -5432,7 +5390,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 6,
+    "order": 5,
     "tag": null
   },
   {
@@ -5446,7 +5404,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn_only",
-    "order": 7,
+    "order": 6,
     "tag": null
   },
   {
@@ -5456,6 +5414,20 @@ export const chartTags = [
     "difficulty": "EXT",
     "version": 1,
     "officialLevel": "10.0",
+    "customLevel": "10.4",
+    "type": "balanced",
+    "isKojinsa": false,
+    "region": "jp",
+    "order": 7,
+    "tag": null
+  },
+  {
+    "id": 362,
+    "title": "Pacify",
+    "jacketTitle": "Pacify",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.1",
     "customLevel": "10.4",
     "type": "balanced",
     "isKojinsa": false,
@@ -5478,16 +5450,16 @@ export const chartTags = [
     "tag": null
   },
   {
-    "id": 385,
-    "title": "ミッドナイト☆WAR",
-    "jacketTitle": "ミッドナイト☆WAR",
+    "id": 367,
+    "title": "Life Without You",
+    "jacketTitle": "Life Without You",
     "difficulty": "EXT",
     "version": 1,
-    "officialLevel": "10.0",
+    "officialLevel": "10.1",
     "customLevel": "10.4",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "cn",
+    "region": "jp",
     "order": 10,
     "tag": null
   },
@@ -5548,6 +5520,20 @@ export const chartTags = [
     "tag": null
   },
   {
+    "id": 377,
+    "title": "過食性:アイドル症候群",
+    "jacketTitle": "過食性:アイドル症候群",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.0",
+    "customLevel": "10.3",
+    "type": "stamina",
+    "isKojinsa": false,
+    "region": "jp",
+    "order": 1,
+    "tag": null
+  },
+  {
     "id": 390,
     "title": "POSSESSION (BEMANI SYMPHONY Arr.)",
     "jacketTitle": "POSSESSION (BEMANI SYMPHONY Arr.)",
@@ -5558,7 +5544,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 1,
+    "order": 2,
     "tag": null
   },
   {
@@ -5572,7 +5558,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 2,
+    "order": 3,
     "tag": null
   },
   {
@@ -5586,7 +5572,21 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "cn",
-    "order": 3,
+    "order": 4,
+    "tag": null
+  },
+  {
+    "id": 385,
+    "title": "ミッドナイト☆WAR",
+    "jacketTitle": "ミッドナイト☆WAR",
+    "difficulty": "EXT",
+    "version": 1,
+    "officialLevel": "10.0",
+    "customLevel": "10.3",
+    "type": "balanced",
+    "isKojinsa": false,
+    "region": "cn",
+    "order": 5,
     "tag": null
   },
   {
@@ -5600,7 +5600,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 4,
+    "order": 6,
     "tag": null
   },
   {
@@ -5614,7 +5614,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 5,
+    "order": 7,
     "tag": null
   },
   {
@@ -5628,7 +5628,7 @@ export const chartTags = [
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 6,
+    "order": 8,
     "tag": null
   },
   {
@@ -5736,11 +5736,11 @@ export const chartTags = [
     "difficulty": "EXT",
     "version": 1,
     "officialLevel": "10.0",
-    "customLevel": "10.0-",
+    "customLevel": "10.0",
     "type": "balanced",
     "isKojinsa": false,
     "region": "jp",
-    "order": 2,
+    "order": 1,
     "tag": null
   },
   {

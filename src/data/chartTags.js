@@ -5982,6 +5982,20 @@ export const chartTags = [
     "tag": null
   },
   {
+    "id": 431,
+    "title": "THRERROR",
+    "jacketTitle": "THRERROR",
+    "difficulty": "ADV",
+    "version": 1,
+    "officialLevel": "10.2",
+    "customLevel": "未定",
+    "type": null,
+    "isKojinsa": false,
+    "region": "cn_only",
+    "order": 18,
+    "tag": null
+  },
+  {
     "id": 428,
     "title": "REBEL",
     "jacketTitle": "REBEL",
@@ -5992,7 +6006,7 @@ export const chartTags = [
     "type": null,
     "isKojinsa": false,
     "region": "cn_only",
-    "order": 18,
+    "order": 19,
     "tag": null
   },
   {
@@ -6006,7 +6020,7 @@ export const chartTags = [
     "type": null,
     "isKojinsa": false,
     "region": "cn_only",
-    "order": 19,
+    "order": 20,
     "tag": null
   },
   {
@@ -6020,7 +6034,7 @@ export const chartTags = [
     "type": null,
     "isKojinsa": false,
     "region": "cn_only",
-    "order": 20,
+    "order": 21,
     "tag": null
   }
 ];

@@ -15247,10 +15247,10 @@ export const songMeta = [
     "bpm": "206",
     "version": "jubeat 音乐魔方",
     "bscLevel": "",
-    "advLevel": "",
+    "advLevel": "10.2",
     "extLevel": "10.9",
     "bscNotes": null,
-    "advNotes": null,
+    "advNotes": 977,
     "extNotes": 1097
   }
 ]

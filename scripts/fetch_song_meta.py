@@ -27,7 +27,7 @@ OUTPUT_PATH = Path(__file__).parent.parent / 'src' / 'data' / 'songMeta.js'
 DEFAULT_VERSION = 'jubeat beyond the Ave.'
 CN_ONLY_VERSION = 'jubeat 音乐魔方'
 
-# (title, artist, bpm, bsc_level, adv_level, ext_level, ext_notes)  等级来源: remywiki AC_jb_China_2025
+# (title, artist, bpm, bsc_level, adv_level, ext_level, ext_notes[, adv_notes])  等级来源: remywiki AC_jb_China_2025
 CN_ONLY_SONGS = [
     ('Heracles', 'Yooh', '193', '3', '7', '10.5', 921),
     ('Wildfire', 'USAO', '203', '4', '8', '10.2', 898),
@@ -51,7 +51,7 @@ CN_ONLY_SONGS = [
     ('Programmed Genom', 'kors k', '150', '3', '8', '10.4', 879),
     ('Echoes of Sunfall', 'nora2r', '160', '4', '8', '10.2', 842),
     ('アクマデ ~A Devil After All~', 'MYUKKE.', '155', '4', '7', '10.3', 1000),
-    ('THRERROR', '打打だいず', '206', '', '', '10.9', 1097),
+    ('THRERROR', '打打だいず', '206', '', '10.2', '10.9', 1097, 977),
 ]
 
 # 每张表前 9 列固定为: 曲名, アーティスト, BPM, 難易度 BSC/ADV/EXT, ノート数 BSC/ADV/EXT
@@ -174,7 +174,7 @@ def main():
             'extNotes': to_int(raw['ext_note']),
         })
 
-    for title, artist, bpm, bsc_level, adv_level, ext_level, ext_notes in CN_ONLY_SONGS:
+    for title, artist, bpm, bsc_level, adv_level, ext_level, ext_notes, *rest in CN_ONLY_SONGS:
         songs.append({
             'title': title,
             'normalizedTitle': normalize_title(title),
@@ -185,7 +185,7 @@ def main():
             'advLevel': adv_level,
             'extLevel': ext_level,
             'bscNotes': None,
-            'advNotes': None,
+            'advNotes': rest[0] if rest else None,
             'extNotes': ext_notes,
         })
 

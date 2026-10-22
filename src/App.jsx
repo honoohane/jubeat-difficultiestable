@@ -146,6 +146,19 @@ const getDifficultyClass = (difficulty) => {
   return `difficulty-${difficulty.toLowerCase()}`
 }
 
+const TYPE_RANK = { stamina: 0, balanced: 1, technique: 2 }
+
+// cn 字段: 数字(delta) 或 { delta, after }
+const getCnDelta = (song) => (typeof song.cn === 'number' ? song.cn : song.cn?.delta) || 0
+
+// 按 0.1 一格偏移等级（去掉 +/- 后缀再算），超出范围则保持原等级
+const shiftLevel = (level, delta) => {
+  const base = parseFloat(level)
+  if (isNaN(base)) return level
+  const shifted = (Math.round((base + delta) * 10) / 10).toFixed(1)
+  return ALL_LEVELS.includes(shifted) ? shifted : level
+}
+
 // 渲染单个歌曲卡片
 const SongCard = ({ song }) => {
   const meta = titleToMeta[song.title]
@@ -202,6 +215,13 @@ const SongCard = ({ song }) => {
           {song.tag === 'GTDR' && <div className="chart-gtdr"></div>}
           {song.tag === 'SDVX' && <div className="chart-sdvx"></div>}
           {song.region === 'cn_only' && <div className="chart-cn">CN</div>}
+          {song.cnDelta ? (
+            <div className={`chart-shift ${song.cnDelta < 0 ? 'chart-shift-down' : 'chart-shift-up'}`}>
+              <svg width="18" height="18" viewBox="0 0 24 24">
+                <path d={song.cnDelta < 0 ? 'M5 4l7 7 7-7M5 12l7 7 7-7' : 'M5 20l7-7 7 7M5 12l7-7 7 7'} />
+              </svg>
+            </div>
+          ) : null}
           <div className={`chart-level ${getDifficultyClass(song.difficulty)}`}>
             {song.officialLevel}
           </div>
@@ -242,6 +262,7 @@ const SongCard = ({ song }) => {
               <span className="tooltip-value">{notes || '-'}</span>
             </div>
             <div className="tooltip-version">{meta?.version || '-'}</div>
+            {song.cnNote && <div className="tooltip-note">{song.cnNote}</div>}
           </div>
         </div>
       </div>
@@ -445,6 +466,38 @@ function App() {
     })
   }, [selectedRegion, minLevel, maxLevel, selectedDifficulties, selectedCharts, selectedTypes, selectedVersions, searchQuery])
 
+  // 国服视图：按 cn 字段偏移等级并重新定位
+  const displaySongs = useMemo(() => {
+    if (selectedRegion !== 'CN') return filteredSongs
+    const result = filteredSongs.filter(s => !getCnDelta(s))
+    filteredSongs.filter(s => getCnDelta(s)).forEach(s => {
+      const delta = getCnDelta(s)
+      const moved = { ...s, customLevel: shiftLevel(s.customLevel, delta), cnDelta: delta, cnNote: s.cn?.note }
+      const sameGroup = c => c.customLevel === moved.customLevel && c.isKojinsa === moved.isKojinsa
+      let at = -1
+      if (typeof s.cn === 'object' && s.cn.after != null) {
+        const anchor = result.findIndex(c => c.id === s.cn.after && sameGroup(c))
+        if (anchor >= 0) {
+          at = anchor + 1
+        } else {
+          // 锚点被筛掉时，按原数据顺序插在它原本的后继之前
+          const anchorIdx = chartTags.findIndex(c => c.id === s.cn.after)
+          at = result.findIndex(c => sameGroup(c) && chartTags.findIndex(t => t.id === c.id) > anchorIdx)
+        }
+      }
+      if (at < 0) {
+        // 默认：同类型那一段的末尾
+        const rank = TYPE_RANK[moved.type]
+        let last = -1
+        result.forEach((c, i) => { if (sameGroup(c) && TYPE_RANK[c.type] <= rank) last = i })
+        at = last >= 0 ? last + 1 : result.findIndex(sameGroup)
+        if (at < 0) at = result.length
+      }
+      result.splice(at, 0, moved)
+    })
+    return result
+  }, [filteredSongs, selectedRegion])
+
   // 按 customLevel 分组，区分普通/个人差
   const songsByLevel = useMemo(() => {
     // 初始化所有等级的空分组
@@ -454,7 +507,7 @@ function App() {
     })
     
     // 填充筛选后的歌曲
-    filteredSongs.forEach(song => {
+    displaySongs.forEach(song => {
       const levelKey = song.customLevel
       if (groups[levelKey]) {
         if (song.isKojinsa) {
@@ -467,7 +520,7 @@ function App() {
 
     // 使用固定的等级顺序
     return { groups, sortedLevels: ALL_LEVELS }
-  }, [filteredSongs])
+  }, [displaySongs])
 
   const renderLevelRow = (level) => {
     const { normal, kojinsa } = songsByLevel.groups[level]
@@ -499,6 +552,7 @@ function App() {
         <div className="container-header">
           <img src="/icon.png" alt="JUBEAT" className="title-icon" />
           <div className="title-text">LV.10 SSS难易度表</div>
+          <div className="title-version">ver. 20261022</div>
         </div>
         <div className="region-bar">
           <label className={`region-radio ${selectedRegion === 'JP' ? 'checked' : ''}`}>
@@ -938,7 +992,7 @@ function App() {
       {/* 注释行 */}
       <div className="table-note">
         <div>*本表综合考虑推SSS所需付出的努力，以及SSS后的稳定性。</div>
-        <div>**本表考虑馅蜜，提前松手；不考虑测打，片手天地。对推鸟一般无需手法的歌不考虑手法要素。</div>
+        <div>**本表考虑馅蜜，提前松手；不考虑侧打，片手天地。对推鸟一般无需手法的歌不考虑手法要素。</div>
       </div>
 
       {/* Footer 鸣谢 */}

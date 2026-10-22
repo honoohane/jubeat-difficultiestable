@@ -57,7 +57,12 @@ export const chartTags = [
     "isKojinsa": false,
     "region": "cn",
     "order": 1,
-    "tag": null
+    "tag": null,
+    "cn": {
+      "delta": -0.2,
+      "after": 18,
+      "note": "*因国服灼热判定与官服不同，定数下调。"
+    }
   },
   {
     "id": 5,
@@ -97,7 +102,7 @@ export const chartTags = [
     "customLevel": "11.9",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 2,
     "tag": null
   },
@@ -195,7 +200,7 @@ export const chartTags = [
     "customLevel": "11.8",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 3,
     "tag": null
   },
@@ -237,7 +242,7 @@ export const chartTags = [
     "customLevel": "11.8",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 6,
     "tag": null
   },
@@ -377,7 +382,7 @@ export const chartTags = [
     "customLevel": "11.7",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 8,
     "tag": null
   },
@@ -1133,7 +1138,7 @@ export const chartTags = [
     "customLevel": "11.5",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 15,
     "tag": null
   },
@@ -1441,7 +1446,7 @@ export const chartTags = [
     "customLevel": "11.4",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 9,
     "tag": null
   },
@@ -2603,7 +2608,7 @@ export const chartTags = [
     "customLevel": "11.1",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 5,
     "tag": null
   },
@@ -2757,7 +2762,7 @@ export const chartTags = [
     "customLevel": "11.1",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 16,
     "tag": null
   },
@@ -3345,7 +3350,7 @@ export const chartTags = [
     "customLevel": "11.0",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 25,
     "tag": null
   },
@@ -5263,7 +5268,7 @@ export const chartTags = [
     "customLevel": "10.5",
     "type": "balanced",
     "isKojinsa": false,
-    "region": "jp",
+    "region": "cn",
     "order": 15,
     "tag": null
   },
